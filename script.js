@@ -10,12 +10,12 @@ import { getFirestore, doc, setDoc, onSnapshot, updateDoc } from 'https://www.gs
 // CONFIGURATION FIREBASE
 // ============================================
 const firebaseConfig = {
-    apiKey: "AIzaSyCT18JbIUAQr5KoWMc1hvdVlkfipnUhy7Q",
-    authDomain: "shinydex-5b49c.firebaseapp.com",
-    projectId: "shinydex-5b49c",
-    storageBucket: "shinydex-5b49c.firebasestorage.app",
-    messagingSenderId: "245328219997",
-    appId: "1:245328219997:web:a6fc1d7a97454d760522b4"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialisation Firebase
