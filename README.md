@@ -2,6 +2,16 @@
 
 Un Pokédex interactif et moderne pour suivre votre collection de Pokémon chromatiques (shiny) dans votre challenge multijoueur !
 
+## 🌐 VERSION PROGRESSION COMMUNE
+
+**NOUVEAU !** Ce Shiny Dex utilise Firebase pour une **progression synchronisée en temps réel** :
+- ✅ Tous les joueurs partagent la même progression
+- ✅ Les captures apparaissent instantanément pour tout le monde
+- ✅ Synchronisation automatique entre tous les appareils
+- ✅ Sauvegarde sécurisée dans le cloud
+
+> 📖 **[Guide de configuration Firebase détaillé](FIREBASE_SETUP.md)** - 5 minutes pour configurer !
+
 ## 🎮 Fonctionnalités
 
 ### 📊 Suivi de Progression
@@ -33,7 +43,15 @@ Un Pokédex interactif et moderne pour suivre votre collection de Pokémon chrom
 
 ### Prérequis
 - Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
+- Un compte Google (pour Firebase - gratuit)
 - Les fichiers doivent être sur un serveur web (même local)
+
+### ⚡ Configuration Rapide Firebase
+
+**🔥 IMPORTANT** : Pour activer la synchronisation multi-joueurs, suivez le guide :
+👉 **[FIREBASE_SETUP.md](FIREBASE_SETUP.md)** 👈
+
+Sans configuration Firebase, le site fonctionnera en mode local uniquement (chacun a sa propre progression).
 
 ### Méthode 1 : Serveur local simple
 
@@ -75,6 +93,26 @@ Shiny Dex Multi/
 ```
 
 ## 🎯 Comment Utiliser
+
+### 🌐 Mode Multi-Joueurs (avec Firebase configuré)
+
+**Quand quelqu'un capture un Pokémon** :
+1. Il clique sur la carte du Pokémon
+2. La carte se met en surbrillance dorée ✨
+3. **TOUS les joueurs** voient la capture instantanément !
+4. Le compteur se met à jour pour tout le monde
+
+**Vérifier que Firebase fonctionne** :
+- Ouvrez la console du navigateur (F12)
+- Vous devriez voir : `🔥 Firebase connecté - Mode synchronisé`
+- Testez avec 2 navigateurs ouverts sur le site
+
+### 💾 Mode Local (sans Firebase)
+
+Si Firebase n'est pas configuré :
+- Chacun a sa propre progression
+- Sauvegarde dans le navigateur (localStorage)
+- Ne se synchronise pas entre les joueurs
 
 ### Marquer un Pokémon comme capturé
 1. Cliquez simplement sur la carte du Pokémon
@@ -158,20 +196,41 @@ Shiny Dex Multi/
 
 ## 🐛 Dépannage
 
-### Le fichier JSON ne se charge pas
-- Assurez-vous d'utiliser un serveur local
+### 🔥 Problèmes Firebase
+
+#### "Firebase non configuré - Mode local uniquement"
+- Vous devez configurer Firebase pour la synchronisation
+- Suivez le guide : [FIREBASE_SETUP.md](FIREBASE_SETUP.md)
+- Remplacez les valeurs `VOTRE_API_KEY` dans `script.js`
+
+#### Les captures ne se synchronisent pas entre les joueurs
+1. Vérifiez que Firebase est bien configuré (voir console F12)
+2. Vérifiez les règles Firestore (voir [FIREBASE_SETUP.md](FIREBASE_SETUP.md))
+3. Attendez 5-10 secondes pour la première synchronisation
+4. Vérifiez votre connexion internet
+
+#### "Permission denied" ou erreur Firestore
+- Les règles de sécurité Firestore ne sont pas correctes
+- Allez dans Firebase Console > Firestore Database > Règles
+- Utilisez les règles du guide [FIREBASE_SETUP.md](FIREBASE_SETUP.md)
+
+### 📁 Problèmes Généraux
+
+#### Le fichier JSON ne se charge pas
+- Assurez-vous d'utiliser un serveur local (pas de double-clic sur index.html)
 - Vérifiez que `pokemon_data.json` est dans le même dossier
 - Ouvrez la console du navigateur (F12) pour voir les erreurs
 
-### La progression ne se sauvegarde pas
+#### La progression ne se sauvegarde pas (mode local)
 - Vérifiez que localStorage est activé dans votre navigateur
 - Mode privé/incognito peut désactiver localStorage
 - Essayez de vider le cache du navigateur
 
-### L'affichage est cassé
+#### L'affichage est cassé
 - Actualisez la page (F5 ou Ctrl+R)
-- Vérifiez que tous les fichiers sont présents
+- Vérifiez que tous les fichiers sont présents (`index.html`, `style.css`, `script.js`, `pokemon_data.json`)
 - Testez dans un autre navigateur
+- Videz le cache (Ctrl+Shift+Delete)
 
 ## 📱 Compatibilité
 

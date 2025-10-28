@@ -1,16 +1,68 @@
-// Configuration et variables globales
+// ============================================
+// SHINY DEX MULTI - VERSION PROGRESSION COMMUNE
+// Synchronisation en temps réel avec Firebase
+// ============================================
+
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+import { getFirestore, doc, setDoc, onSnapshot, updateDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+// ============================================
+// CONFIGURATION FIREBASE
+// ============================================
+const firebaseConfig = {
+    apiKey: "AIzaSyCT18JbIUAQr5KoWMc1hvdVlkfipnUhy7Q",
+    authDomain: "shinydex-5b49c.firebaseapp.com",
+    projectId: "shinydex-5b49c",
+    storageBucket: "shinydex-5b49c.firebasestorage.app",
+    messagingSenderId: "245328219997",
+    appId: "1:245328219997:web:a6fc1d7a97454d760522b4"
+};
+
+// Initialisation Firebase
+let app, db;
+let isFirebaseConfigured = false;
+
+try {
+    // Vérifier si la config est valide
+    if (firebaseConfig.apiKey !== "VOTRE_API_KEY") {
+        app = initializeApp(firebaseConfig);
+        db = getFirestore(app);
+        isFirebaseConfigured = true;
+        console.log('🔥 Firebase connecté - Mode synchronisé');
+    } else {
+        console.warn('⚠️ Firebase non configuré - Mode local uniquement');
+        console.log('📖 Consultez le README.md pour configurer Firebase');
+    }
+} catch (error) {
+    console.error('❌ Erreur Firebase:', error);
+    console.log('📖 Vérifiez votre configuration Firebase');
+}
+
+// ============================================
+// VARIABLES GLOBALES
+// ============================================
 let pokemonData = [];
 let caughtPokemon = new Set();
 const STORAGE_KEY = 'shinyDexProgress';
+const FIREBASE_DOC_ID = 'shared-progress'; // Document unique pour la progression commune
 
-// Initialisation
+// ============================================
+// INITIALISATION
+// ============================================
 document.addEventListener('DOMContentLoaded', () => {
     loadPokemonData();
-    loadProgress();
     initializeEventListeners();
+    
+    if (isFirebaseConfigured) {
+        setupFirebaseListener();
+    } else {
+        loadLocalProgress();
+    }
 });
 
-// Charger les données des Pokémon
+// ============================================
+// CHARGEMENT DES DONNÉES POKÉMON
+// ============================================
 async function loadPokemonData() {
     try {
         const response = await fetch('pokemon_data.json');
@@ -23,26 +75,84 @@ async function loadPokemonData() {
     }
 }
 
-// Charger la progression depuis localStorage
-function loadProgress() {
+// ============================================
+// FIREBASE - SYNCHRONISATION TEMPS RÉEL
+// ============================================
+
+// Écouter les changements en temps réel
+function setupFirebaseListener() {
+    const docRef = doc(db, 'shinyDex', FIREBASE_DOC_ID);
+    
+    // Écouter les mises à jour en temps réel
+    onSnapshot(docRef, (docSnap) => {
+        if (docSnap.exists()) {
+            const data = docSnap.data();
+            if (data.caughtPokemon) {
+                caughtPokemon = new Set(data.caughtPokemon);
+                renderPokemon();
+                updateStats();
+                console.log('🔄 Progression synchronisée');
+            }
+        } else {
+            // Premier lancement - créer le document
+            console.log('📝 Création du document de progression commune');
+            saveToFirebase();
+        }
+    }, (error) => {
+        console.error('❌ Erreur de synchronisation:', error);
+        showConnectionError();
+    });
+}
+
+// Sauvegarder dans Firebase
+async function saveToFirebase() {
+    if (!isFirebaseConfigured) {
+        saveLocalProgress();
+        return;
+    }
+
+    try {
+        const docRef = doc(db, 'shinyDex', FIREBASE_DOC_ID);
+        await setDoc(docRef, {
+            caughtPokemon: [...caughtPokemon],
+            lastUpdate: new Date().toISOString(),
+            totalPokemon: pokemonData.length
+        }, { merge: true });
+        
+        console.log('✅ Progression sauvegardée');
+    } catch (error) {
+        console.error('❌ Erreur de sauvegarde:', error);
+        // Fallback vers localStorage
+        saveLocalProgress();
+    }
+}
+
+// ============================================
+// FALLBACK - SAUVEGARDE LOCALE
+// ============================================
+
+function loadLocalProgress() {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
         try {
             const savedIds = JSON.parse(saved);
             caughtPokemon = new Set(savedIds);
+            renderPokemon();
+            updateStats();
         } catch (error) {
-            console.error('Erreur lors du chargement de la progression:', error);
+            console.error('Erreur lors du chargement:', error);
             caughtPokemon = new Set();
         }
     }
 }
 
-// Sauvegarder la progression
-function saveProgress() {
+function saveLocalProgress() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify([...caughtPokemon]));
 }
 
-// Initialiser les écouteurs d'événements
+// ============================================
+// ÉVÉNEMENTS
+// ============================================
 function initializeEventListeners() {
     // Recherche
     const searchInput = document.getElementById('search-input');
@@ -59,7 +169,7 @@ function initializeEventListeners() {
     resetBtn.addEventListener('click', resetProgress);
 }
 
-// Fonction debounce pour optimiser la recherche
+// Fonction debounce
 function debounce(func, wait) {
     let timeout;
     return function executedFunction(...args) {
@@ -72,7 +182,9 @@ function debounce(func, wait) {
     };
 }
 
-// Afficher les Pokémon
+// ============================================
+// AFFICHAGE DES POKÉMON
+// ============================================
 function renderPokemon(filteredData = pokemonData) {
     const grid = document.getElementById('pokemon-grid');
     
@@ -88,7 +200,7 @@ function renderPokemon(filteredData = pokemonData) {
 
     grid.innerHTML = filteredData.map(pokemon => createPokemonCard(pokemon)).join('');
 
-    // Ajouter les écouteurs de clic sur les cartes
+    // Ajouter les écouteurs de clic
     document.querySelectorAll('.pokemon-card').forEach(card => {
         card.addEventListener('click', () => togglePokemon(parseInt(card.dataset.id)));
     });
@@ -121,17 +233,21 @@ function createPokemonCard(pokemon) {
     `;
 }
 
-// Basculer l'état d'un Pokémon (capturé/non capturé)
+// ============================================
+// GESTION DES CAPTURES
+// ============================================
 function togglePokemon(id) {
     if (caughtPokemon.has(id)) {
         caughtPokemon.delete(id);
     } else {
         caughtPokemon.add(id);
-        // Effet sonore ou animation si besoin
         celebrateCapture(id);
     }
     
-    saveProgress();
+    // Sauvegarder (Firebase ou local)
+    saveToFirebase();
+    
+    // Mise à jour immédiate de l'interface
     updateCardState(id);
     updateStats();
 }
@@ -148,7 +264,7 @@ function updateCardState(id) {
     }
 }
 
-// Célébrer une capture
+// Animation de capture
 function celebrateCapture(id) {
     const card = document.querySelector(`[data-id="${id}"]`);
     if (card) {
@@ -159,7 +275,9 @@ function celebrateCapture(id) {
     }
 }
 
-// Mettre à jour les statistiques
+// ============================================
+// STATISTIQUES
+// ============================================
 function updateStats() {
     const total = pokemonData.length;
     const caught = caughtPokemon.size;
@@ -172,7 +290,9 @@ function updateStats() {
     progressBar.style.width = `${percentage}%`;
 }
 
-// Filtrer les Pokémon
+// ============================================
+// FILTRES
+// ============================================
 function filterPokemon() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
     const typeFilter = document.getElementById('type-filter').value;
@@ -204,25 +324,37 @@ function filterPokemon() {
     renderPokemon(filtered);
 }
 
-// Réinitialiser la progression
-function resetProgress() {
+// ============================================
+// RÉINITIALISATION
+// ============================================
+async function resetProgress() {
+    const mode = isFirebaseConfigured ? 'partagée' : 'locale';
     const confirmed = confirm(
-        '⚠️ Êtes-vous sûr de vouloir réinitialiser toute votre progression ?\n\n' +
-        'Cette action est irréversible et supprimera tous vos Pokémon capturés.'
+        `⚠️ ATTENTION : Vous allez réinitialiser la progression ${mode} !\n\n` +
+        (isFirebaseConfigured ? 
+            '🌐 Cela affectera TOUS les joueurs du challenge !\n\n' : 
+            '💾 Cela ne réinitialisera que votre progression locale.\n\n') +
+        'Cette action est irréversible. Continuer ?'
     );
 
     if (confirmed) {
         caughtPokemon.clear();
-        saveProgress();
+        
+        if (isFirebaseConfigured) {
+            await saveToFirebase();
+        } else {
+            saveLocalProgress();
+        }
+        
         renderPokemon();
         updateStats();
-        
-        // Message de confirmation
-        alert('✅ Progression réinitialisée avec succès !');
+        alert('✅ Progression réinitialisée !');
     }
 }
 
-// Afficher une erreur
+// ============================================
+// GESTION DES ERREURS
+// ============================================
 function showError() {
     const grid = document.getElementById('pokemon-grid');
     grid.innerHTML = `
@@ -236,74 +368,31 @@ function showError() {
     `;
 }
 
-// Export des données (bonus - pour sauvegarder ailleurs)
-function exportProgress() {
-    const data = {
-        date: new Date().toISOString(),
-        total: pokemonData.length,
-        caught: caughtPokemon.size,
-        percentage: Math.round((caughtPokemon.size / pokemonData.length) * 100),
-        pokemonIds: [...caughtPokemon]
-    };
-
-    const dataStr = JSON.stringify(data, null, 2);
-    const dataBlob = new Blob([dataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(dataBlob);
-    
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `shiny-dex-progress-${new Date().toISOString().split('T')[0]}.json`;
-    link.click();
-    
-    URL.revokeObjectURL(url);
+function showConnectionError() {
+    console.error('Problème de connexion Firebase');
+    // Optionnel : afficher une notification à l'utilisateur
 }
 
-// Import des données (bonus - pour restaurer une sauvegarde)
-function importProgress(file) {
-    const reader = new FileReader();
-    reader.onload = (e) => {
-        try {
-            const data = JSON.parse(e.target.result);
-            if (data.pokemonIds && Array.isArray(data.pokemonIds)) {
-                caughtPokemon = new Set(data.pokemonIds);
-                saveProgress();
-                renderPokemon();
-                updateStats();
-                alert('✅ Progression importée avec succès !');
-            } else {
-                throw new Error('Format de fichier invalide');
-            }
-        } catch (error) {
-            alert('❌ Erreur lors de l\'import : ' + error.message);
-        }
-    };
-    reader.readAsText(file);
-}
-
-// Raccourcis clavier (bonus)
+// ============================================
+// RACCOURCIS CLAVIER
+// ============================================
 document.addEventListener('keydown', (e) => {
     // Ctrl/Cmd + K pour focus sur la recherche
     if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
         e.preventDefault();
         document.getElementById('search-input').focus();
     }
-    
-    // Ctrl/Cmd + R pour réinitialiser (avec confirmation)
-    if ((e.ctrlKey || e.metaKey) && e.key === 'r' && e.shiftKey) {
-        e.preventDefault();
-        resetProgress();
-    }
 });
 
-// Détection de changements multi-onglets
-window.addEventListener('storage', (e) => {
-    if (e.key === STORAGE_KEY) {
-        loadProgress();
-        renderPokemon();
-        updateStats();
-    }
-});
-
-console.log('🎮 Shiny Dex Multi initialisé !');
+// ============================================
+// MESSAGES DE DÉMARRAGE
+// ============================================
+console.log('🎮 Shiny Dex Multi - Progression Commune');
+if (isFirebaseConfigured) {
+    console.log('🔥 Mode synchronisé activé');
+    console.log('🌐 Tous les joueurs partagent la même progression');
+} else {
+    console.log('💾 Mode local (Firebase non configuré)');
+    console.log('📖 Consultez le README.md pour activer la synchronisation');
+}
 console.log('💡 Astuce : Ctrl/Cmd + K pour rechercher rapidement');
-
