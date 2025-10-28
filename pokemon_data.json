@@ -1,0 +1,1843 @@
+[
+  {
+    "id": 1,
+    "numero": 152,
+    "nom": "Germignon",
+    "nomEn": "Chikorita",
+    "types": ["plante"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 2,
+    "numero": 153,
+    "nom": "Macronium",
+    "nomEn": "Bayleef",
+    "types": ["plante"],
+    "location": "Évolution de Germignon au niveau 16"
+  },
+  {
+    "id": 3,
+    "numero": 154,
+    "nom": "Méganium",
+    "nomEn": "Meganium",
+    "types": ["plante"],
+    "location": "Évolution de Macronium au niveau 32"
+  },
+  {
+    "id": 4,
+    "numero": 498,
+    "nom": "Gruikui",
+    "nomEn": "Tepig",
+    "types": ["feu"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 5,
+    "numero": 499,
+    "nom": "Grotichon",
+    "nomEn": "Pignite",
+    "types": ["feu", "combat"],
+    "location": "Évolution de Gruikui au niveau 17"
+  },
+  {
+    "id": 6,
+    "numero": 500,
+    "nom": "Roitiflam",
+    "nomEn": "Emboar",
+    "types": ["feu", "combat"],
+    "location": "Évolution de Grotichon au niveau 36"
+  },
+  {
+    "id": 7,
+    "numero": 158,
+    "nom": "Kaiminus",
+    "nomEn": "Totodile",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 8,
+    "numero": 159,
+    "nom": "Crocrodil",
+    "nomEn": "Croconaw",
+    "types": ["eau"],
+    "location": "Évolution de Kaiminus au niveau 18"
+  },
+  {
+    "id": 9,
+    "numero": 160,
+    "nom": "Aligatueur",
+    "nomEn": "Feraligatr",
+    "types": ["eau"],
+    "location": "Évolution de Crocrodil au niveau 30"
+  },
+  {
+    "id": 10,
+    "numero": 661,
+    "nom": "Passerouge",
+    "nomEn": "Fletchling",
+    "types": ["normal", "vol"],
+    "location": "Zone sauvage nº 1, 3, 5"
+  },
+  {
+    "id": 11,
+    "numero": 662,
+    "nom": "Braisillon",
+    "nomEn": "Fletchinder",
+    "types": ["feu", "vol"],
+    "location": "Zone sauvage nº 5, 7, 9 | Évolution de Passerouge au niveau 17"
+  },
+  {
+    "id": 12,
+    "numero": 663,
+    "nom": "Flambusard",
+    "nomEn": "Talonflame",
+    "types": ["feu", "vol"],
+    "location": "Zone sauvage nº 17, 20 | Évolution de Braisillon au niveau 35"
+  },
+  {
+    "id": 13,
+    "numero": 659,
+    "nom": "Sapereau",
+    "nomEn": "Bunnelby",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 1, 5"
+  },
+  {
+    "id": 14,
+    "numero": 660,
+    "nom": "Excavarenne",
+    "nomEn": "Diggersby",
+    "types": ["normal", "sol"],
+    "location": "Zone sauvage nº 17, 20 | Évolution de Sapereau au niveau 20"
+  },
+  {
+    "id": 15,
+    "numero": 664,
+    "nom": "Lépidonille",
+    "nomEn": "Scatterbug",
+    "types": ["insecte"],
+    "location": "Zone sauvage nº 1"
+  },
+  {
+    "id": 16,
+    "numero": 665,
+    "nom": "Pérégrain",
+    "nomEn": "Spewpa",
+    "types": ["insecte"],
+    "location": "Zone sauvage nº 4 | Évolution de Lépidonille au niveau 9"
+  },
+  {
+    "id": 17,
+    "numero": 666,
+    "nom": "Prismillon",
+    "nomEn": "Vivillon",
+    "types": ["insecte", "vol"],
+    "location": "Zone sauvage nº 13, 20 | Évolution de Pérégrain au niveau 12"
+  },
+  {
+    "id": 18,
+    "numero": 13,
+    "nom": "Aspicot",
+    "nomEn": "Weedle",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 1"
+  },
+  {
+    "id": 19,
+    "numero": 14,
+    "nom": "Coconfort",
+    "nomEn": "Kakuna",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 2, 7 | Évolution de Aspicot au niveau 7"
+  },
+  {
+    "id": 20,
+    "numero": 15,
+    "nom": "Dardargnan",
+    "nomEn": "Beedrill",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 15 | Évolution de Coconfort au niveau 10"
+  },
+  {
+    "id": 21,
+    "numero": 16,
+    "nom": "Roucool",
+    "nomEn": "Pidgey",
+    "types": ["normal", "vol"],
+    "location": "Zone sauvage nº 1, 5"
+  },
+  {
+    "id": 22,
+    "numero": 17,
+    "nom": "Roucoups",
+    "nomEn": "Pidgeotto",
+    "types": ["normal", "vol"],
+    "location": "Zone sauvage nº 5 | Évolution de Roucool au niveau 18"
+  },
+  {
+    "id": 23,
+    "numero": 18,
+    "nom": "Roucarnage",
+    "nomEn": "Pidgeot",
+    "types": ["normal", "vol"],
+    "location": "Évolution de Roucoups au niveau 36"
+  },
+  {
+    "id": 24,
+    "numero": 179,
+    "nom": "Wattouat",
+    "nomEn": "Mareep",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 1"
+  },
+  {
+    "id": 25,
+    "numero": 180,
+    "nom": "Lainergie",
+    "nomEn": "Flaaffy",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 6, 16 | Évolution de Wattouat au niveau 15"
+  },
+  {
+    "id": 26,
+    "numero": 181,
+    "nom": "Pharamp",
+    "nomEn": "Ampharos",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 16 | Évolution de Lainergie au niveau 30"
+  },
+  {
+    "id": 27,
+    "numero": 504,
+    "nom": "Ratentif",
+    "nomEn": "Patrat",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 2, 4, 5 | Égouts (Accès Principale)"
+  },
+  {
+    "id": 28,
+    "numero": 505,
+    "nom": "Miradar",
+    "nomEn": "Watchog",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 10 | Évolution de Ratentif au niveau 20"
+  },
+  {
+    "id": 29,
+    "numero": 406,
+    "nom": "Rozbouton",
+    "nomEn": "Budew",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 2"
+  },
+  {
+    "id": 30,
+    "numero": 315,
+    "nom": "Rosélia",
+    "nomEn": "Roselia",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 7 | Évolution de Rozbouton par amitié le jour"
+  },
+  {
+    "id": 31,
+    "numero": 407,
+    "nom": "Roserade",
+    "nomEn": "Roserade",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 20 | Évolution de Rosélia avec Pierre Éclat"
+  },
+  {
+    "id": 32,
+    "numero": 129,
+    "nom": "Magicarpe",
+    "nomEn": "Magikarp",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 2, 6"
+  },
+  {
+    "id": 33,
+    "numero": 130,
+    "nom": "Léviator",
+    "nomEn": "Gyarados",
+    "types": ["eau", "vol"],
+    "location": "Zone sauvage nº 11, 20 | Évolution de Magicarpe au niveau 20"
+  },
+  {
+    "id": 34,
+    "numero": 688,
+    "nom": "Opermine",
+    "nomEn": "Binacle",
+    "types": ["roche", "eau"],
+    "location": "Zone sauvage nº 2, 5, 6"
+  },
+  {
+    "id": 35,
+    "numero": 689,
+    "nom": "Golgopathe",
+    "nomEn": "Barbaracle",
+    "types": ["roche", "eau"],
+    "location": "Zone sauvage nº 16, 20 | Évolution de Opermine au niveau 39"
+  },
+  {
+    "id": 36,
+    "numero": 120,
+    "nom": "Stari",
+    "nomEn": "Staryu",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 2, 10"
+  },
+  {
+    "id": 37,
+    "numero": 121,
+    "nom": "Staross",
+    "nomEn": "Starmie",
+    "types": ["eau", "psy"],
+    "location": "Zone sauvage nº 16, 20 | Évolution de Stari avec Pierre Eau"
+  },
+  {
+    "id": 38,
+    "numero": 669,
+    "nom": "Flabébé",
+    "nomEn": "Flabébé",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 3"
+  },
+  {
+    "id": 39,
+    "numero": 670,
+    "nom": "Floette",
+    "nomEn": "Floette",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 7 | Évolution de Flabébé au niveau 19"
+  },
+  {
+    "id": 40,
+    "numero": 671,
+    "nom": "Florges",
+    "nomEn": "Florges",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 16, 20 | Évolution de Floette avec Pierre Éclat"
+  },
+  {
+    "id": 41,
+    "numero": 672,
+    "nom": "Cabriolaine",
+    "nomEn": "Skiddo",
+    "types": ["plante"],
+    "location": "Zone sauvage nº 3"
+  },
+  {
+    "id": 42,
+    "numero": 673,
+    "nom": "Chevroum",
+    "nomEn": "Gogoat",
+    "types": ["plante"],
+    "location": "Zone sauvage nº 12, 20 | Évolution de Cabriolaine au niveau 32"
+  },
+  {
+    "id": 43,
+    "numero": 677,
+    "nom": "Psystigri",
+    "nomEn": "Espurr",
+    "types": ["psy"],
+    "location": "Zone sauvage nº 3, 9"
+  },
+  {
+    "id": 44,
+    "numero": 678,
+    "nom": "Mistigrix",
+    "nomEn": "Meowstic",
+    "types": ["psy"],
+    "location": "Zone sauvage nº 9 | Évolution de Psystigri au niveau 25"
+  },
+  {
+    "id": 45,
+    "numero": 667,
+    "nom": "Hélionceau",
+    "nomEn": "Litleo",
+    "types": ["feu", "normal"],
+    "location": "Zone sauvage nº 3"
+  },
+  {
+    "id": 46,
+    "numero": 668,
+    "nom": "Némélios",
+    "nomEn": "Pyroar",
+    "types": ["feu", "normal"],
+    "location": "Zone sauvage nº 17 | Évolution de Hélionceau au niveau 35"
+  },
+  {
+    "id": 47,
+    "numero": 674,
+    "nom": "Pandespiègle",
+    "nomEn": "Pancham",
+    "types": ["combat"],
+    "location": "Zone sauvage nº 3"
+  },
+  {
+    "id": 48,
+    "numero": 675,
+    "nom": "Pandarbare",
+    "nomEn": "Pangoro",
+    "types": ["combat", "tenebres"],
+    "location": "Zone sauvage nº 9, 20 | Évolution de Pandespiègle au niveau 32 avec un Pokémon Ténèbres dans l'équipe"
+  },
+  {
+    "id": 49,
+    "numero": 568,
+    "nom": "Miamiasme",
+    "nomEn": "Trubbish",
+    "types": ["poison"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 50,
+    "numero": 569,
+    "nom": "Miasmax",
+    "nomEn": "Garbodor",
+    "types": ["poison"],
+    "location": "Zone sauvage nº 20 | Évolution de Miamiasme au niveau 36"
+  },
+  {
+    "id": 51,
+    "numero": 702,
+    "nom": "Dedenne",
+    "nomEn": "Dedenne",
+    "types": ["electrik", "fee"],
+    "location": "Zone sauvage nº 20 | Sushis sans Chichis"
+  },
+  {
+    "id": 52,
+    "numero": 172,
+    "nom": "Pichu",
+    "nomEn": "Pichu",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 1"
+  },
+  {
+    "id": 53,
+    "numero": 25,
+    "nom": "Pikachu",
+    "nomEn": "Pikachu",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 3, 6 | Évolution de Pichu par amitié"
+  },
+  {
+    "id": 54,
+    "numero": 26,
+    "nom": "Raichu",
+    "nomEn": "Raichu",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 20 | Évolution de Pikachu avec Pierre Foudre"
+  },
+  {
+    "id": 55,
+    "numero": 173,
+    "nom": "Mélo",
+    "nomEn": "Cleffa",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 19"
+  },
+  {
+    "id": 56,
+    "numero": 35,
+    "nom": "Mélofée",
+    "nomEn": "Clefairy",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 19 | Évolution de Mélo par amitié"
+  },
+  {
+    "id": 57,
+    "numero": 36,
+    "nom": "Mélodelfe",
+    "nomEn": "Clefable",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 20 | Évolution de Mélofée avec Pierre Lune"
+  },
+  {
+    "id": 58,
+    "numero": 167,
+    "nom": "Mimigal",
+    "nomEn": "Spinarak",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 4"
+  },
+  {
+    "id": 59,
+    "numero": 168,
+    "nom": "Migalos",
+    "nomEn": "Ariados",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 20 | Égouts (Accès canal) | Évolution de Mimigal au niveau 22"
+  },
+  {
+    "id": 60,
+    "numero": 23,
+    "nom": "Abo",
+    "nomEn": "Ekans",
+    "types": ["poison"],
+    "location": "Zone sauvage nº 4"
+  },
+  {
+    "id": 61,
+    "numero": 24,
+    "nom": "Arbok",
+    "nomEn": "Arbok",
+    "types": ["poison"],
+    "location": "Zone sauvage nº 10 | Évolution de Abo au niveau 22"
+  },
+  {
+    "id": 62,
+    "numero": 63,
+    "nom": "Abra",
+    "nomEn": "Abra",
+    "types": ["psy"],
+    "location": "Zone sauvage nº 5"
+  },
+  {
+    "id": 63,
+    "numero": 64,
+    "nom": "Kadabra",
+    "nomEn": "Kadabra",
+    "types": ["psy"],
+    "location": "Zone sauvage nº 6, 9 | Évolution de Abra au niveau 16"
+  },
+  {
+    "id": 64,
+    "numero": 65,
+    "nom": "Alakazam",
+    "nomEn": "Alakazam",
+    "types": ["psy"],
+    "location": "Zone sauvage nº 20 | Évolution de Kadabra par échange"
+  },
+  {
+    "id": 65,
+    "numero": 92,
+    "nom": "Fantominus",
+    "nomEn": "Gastly",
+    "types": ["spectre", "poison"],
+    "location": "Zone sauvage nº 4, 7 | Vieux Batiment | Égouts"
+  },
+  {
+    "id": 66,
+    "numero": 93,
+    "nom": "Spectrum",
+    "nomEn": "Haunter",
+    "types": ["spectre", "poison"],
+    "location": "Zone sauvage nº 15 | Vieux Batiment | Égouts | Évolution de Fantominus au niveau 25"
+  },
+  {
+    "id": 67,
+    "numero": 94,
+    "nom": "Ectoplasma",
+    "nomEn": "Gengar",
+    "types": ["spectre", "poison"],
+    "location": "Zone sauvage nº 20 | Vieux Batiment | Évolution de Spectrum par échange"
+  },
+  {
+    "id": 68,
+    "numero": 543,
+    "nom": "Venipatte",
+    "nomEn": "Venipede",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 5"
+  },
+  {
+    "id": 69,
+    "numero": 544,
+    "nom": "Scobolide",
+    "nomEn": "Whirlipede",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 5, 15 | Évolution de Venipatte au niveau 22"
+  },
+  {
+    "id": 70,
+    "numero": 545,
+    "nom": "Brutapode",
+    "nomEn": "Scolipede",
+    "types": ["insecte", "poison"],
+    "location": "Zone sauvage nº 15, 20 | Évolution de Scobolide au niveau 30"
+  },
+  {
+    "id": 71,
+    "numero": 679,
+    "nom": "Monorpale",
+    "nomEn": "Honedge",
+    "types": ["acier", "spectre"],
+    "location": "Zone sauvage nº 4"
+  },
+  {
+    "id": 72,
+    "numero": 680,
+    "nom": "Dimoclès",
+    "nomEn": "Doublade",
+    "types": ["acier", "spectre"],
+    "location": "Évolution de Monorpale au niveau 35"
+  },
+  {
+    "id": 73,
+    "numero": 681,
+    "nom": "Exagide",
+    "nomEn": "Aegislash",
+    "types": ["acier", "spectre"],
+    "location": "Zone sauvage nº 20 | Évolution de Dimoclès avec Pierre Nuit"
+  },
+  {
+    "id": 74,
+    "numero": 69,
+    "nom": "Chétiflor",
+    "nomEn": "Bellsprout",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 5, 10"
+  },
+  {
+    "id": 75,
+    "numero": 70,
+    "nom": "Boustiflor",
+    "nomEn": "Weepinbell",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 13 | Évolution de Chétiflor au niveau 21"
+  },
+  {
+    "id": 76,
+    "numero": 71,
+    "nom": "Empiflor",
+    "nomEn": "Victreebel",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 20 | Évolution de Boustiflor avec Pierre Plante"
+  },
+  {
+    "id": 77,
+    "numero": 511,
+    "nom": "Feuillajou",
+    "nomEn": "Pansage",
+    "types": ["plante"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 78,
+    "numero": 512,
+    "nom": "Feuiloutan",
+    "nomEn": "Simisage",
+    "types": ["plante"],
+    "location": "Zone sauvage nº 20 | Évolution de Feuillajou avec Pierre Plante"
+  },
+  {
+    "id": 79,
+    "numero": 513,
+    "nom": "Flamajou",
+    "nomEn": "Pansear",
+    "types": ["feu"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 80,
+    "numero": 514,
+    "nom": "Flamoutan",
+    "nomEn": "Simisear",
+    "types": ["feu"],
+    "location": "Zone sauvage nº 20 | Évolution de Flamajou avec Pierre Feu"
+  },
+  {
+    "id": 81,
+    "numero": 515,
+    "nom": "Flotajou",
+    "nomEn": "Panpour",
+    "types": ["eau"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 82,
+    "numero": 516,
+    "nom": "Flotoutan",
+    "nomEn": "Simipour",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 20 | Évolution de Flotajou avec Pierre Eau"
+  },
+  {
+    "id": 83,
+    "numero": 307,
+    "nom": "Méditikka",
+    "nomEn": "Meditite",
+    "types": ["combat", "psy"],
+    "location": "Zone sauvage nº 6"
+  },
+  {
+    "id": 84,
+    "numero": 308,
+    "nom": "Charmina",
+    "nomEn": "Medicham",
+    "types": ["combat", "psy"],
+    "location": "Zone sauvage nº 16, 20 | Évolution de Méditikka au niveau 37"
+  },
+  {
+    "id": 85,
+    "numero": 309,
+    "nom": "Dynavolt",
+    "nomEn": "Electrike",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 5"
+  },
+  {
+    "id": 86,
+    "numero": 310,
+    "nom": "Élecsprint",
+    "nomEn": "Manectric",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 9 | Évolution de Dynavolt au niveau 26"
+  },
+  {
+    "id": 87,
+    "numero": 280,
+    "nom": "Tarsal",
+    "nomEn": "Ralts",
+    "types": ["psy", "fee"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 88,
+    "numero": 281,
+    "nom": "Kirlia",
+    "nomEn": "Kirlia",
+    "types": ["psy", "fee"],
+    "location": "Évolution de Tarsal au niveau 20"
+  },
+  {
+    "id": 89,
+    "numero": 282,
+    "nom": "Gardevoir",
+    "nomEn": "Gardevoir",
+    "types": ["psy", "fee"],
+    "location": "Zone sauvage nº 20 | Évolution de Kirlia au niveau 30"
+  },
+  {
+    "id": 90,
+    "numero": 475,
+    "nom": "Gallame",
+    "nomEn": "Gallade",
+    "types": ["psy", "combat"],
+    "location": "Zone sauvage nº 5, 20 | Évolution de Kirlia mâle avec Pierre Aube"
+  },
+  {
+    "id": 91,
+    "numero": 228,
+    "nom": "Malosse",
+    "nomEn": "Houndour",
+    "types": ["tenebres", "feu"],
+    "location": "Zone sauvage nº 6"
+  },
+  {
+    "id": 92,
+    "numero": 229,
+    "nom": "Démolosse",
+    "nomEn": "Houndoom",
+    "types": ["tenebres", "feu"],
+    "location": "Zone sauvage nº 6, 19 | Évolution de Malosse au niveau 24"
+  },
+  {
+    "id": 93,
+    "numero": 333,
+    "nom": "Tylton",
+    "nomEn": "Swablu",
+    "types": ["normal", "vol"],
+    "location": "Zone sauvage nº 6, 18"
+  },
+  {
+    "id": 94,
+    "numero": 334,
+    "nom": "Altaria",
+    "nomEn": "Altaria",
+    "types": ["dragon", "vol"],
+    "location": "Zone sauvage nº 18, 20 | Évolution de Tylton au niveau 35"
+  },
+  {
+    "id": 95,
+    "numero": 531,
+    "nom": "Nanméouïe",
+    "nomEn": "Audino",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 7, 19"
+  },
+  {
+    "id": 96,
+    "numero": 682,
+    "nom": "Fluvetin",
+    "nomEn": "Spritzee",
+    "types": ["fee"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 97,
+    "numero": 683,
+    "nom": "Cocotine",
+    "nomEn": "Aromatisse",
+    "types": ["fee"],
+    "location": "Évolution de Fluvetin par échange avec Sachet Senteur"
+  },
+  {
+    "id": 98,
+    "numero": 684,
+    "nom": "Sucroquin",
+    "nomEn": "Swirlix",
+    "types": ["fee"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 99,
+    "numero": 685,
+    "nom": "Cupcanaille",
+    "nomEn": "Slurpuff",
+    "types": ["fee"],
+    "location": "Évolution de Sucroquin par échange avec Chantibonbon"
+  },
+  {
+    "id": 100,
+    "numero": 133,
+    "nom": "Évoli",
+    "nomEn": "Eevee",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 19"
+  },
+  {
+    "id": 101,
+    "numero": 134,
+    "nom": "Aquali",
+    "nomEn": "Vaporeon",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 20 | Évolution de Évoli avec Pierre Eau"
+  },
+  {
+    "id": 102,
+    "numero": 135,
+    "nom": "Voltali",
+    "nomEn": "Jolteon",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 20 | Évolution de Évoli avec Pierre Foudre"
+  },
+  {
+    "id": 103,
+    "numero": 136,
+    "nom": "Pyroli",
+    "nomEn": "Flareon",
+    "types": ["feu"],
+    "location": "Zone sauvage nº 20 | Évolution de Évoli avec Pierre Feu"
+  },
+  {
+    "id": 104,
+    "numero": 196,
+    "nom": "Mentali",
+    "nomEn": "Espeon",
+    "types": ["psy"],
+    "location": "Évolution de Évoli par amitié le jour"
+  },
+  {
+    "id": 105,
+    "numero": 197,
+    "nom": "Noctali",
+    "nomEn": "Umbreon",
+    "types": ["tenebres"],
+    "location": "Évolution de Évoli par amitié la nuit"
+  },
+  {
+    "id": 106,
+    "numero": 470,
+    "nom": "Phyllali",
+    "nomEn": "Leafeon",
+    "types": ["plante"],
+    "location": "Zone sauvage nº 20 | Évolution de Évoli avec Pierre Plante"
+  },
+  {
+    "id": 107,
+    "numero": 471,
+    "nom": "Givrali",
+    "nomEn": "Glaceon",
+    "types": ["glace"],
+    "location": "Zone sauvage nº 20 | Évolution de Évoli avec Pierre Glace"
+  },
+  {
+    "id": 108,
+    "numero": 700,
+    "nom": "Nymphali",
+    "nomEn": "Sylveon",
+    "types": ["fee"],
+    "location": "Zone sauvage nº 20 | Évolution de Évoli par amitié avec attaque Fée"
+  },
+  {
+    "id": 109,
+    "numero": 427,
+    "nom": "Laporeille",
+    "nomEn": "Buneary",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 6"
+  },
+  {
+    "id": 110,
+    "numero": 428,
+    "nom": "Lockpin",
+    "nomEn": "Lopunny",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 18 | Évolution de Laporeille par amitié"
+  },
+  {
+    "id": 111,
+    "numero": 353,
+    "nom": "Polichombr",
+    "nomEn": "Shuppet",
+    "types": ["spectre"],
+    "location": "Zone sauvage nº 7, 15"
+  },
+  {
+    "id": 112,
+    "numero": 354,
+    "nom": "Branette",
+    "nomEn": "Banette",
+    "types": ["spectre"],
+    "location": "Zone sauvage nº 15 | Évolution de Polichombr au niveau 37"
+  },
+  {
+    "id": 113,
+    "numero": 582,
+    "nom": "Sorbébé",
+    "nomEn": "Vanillite",
+    "types": ["glace"],
+    "location": "Zone sauvage nº 7, 12"
+  },
+  {
+    "id": 114,
+    "numero": 583,
+    "nom": "Sorboul",
+    "nomEn": "Vanillish",
+    "types": ["glace"],
+    "location": "Évolution de Sorbébé au niveau 35"
+  },
+  {
+    "id": 115,
+    "numero": 584,
+    "nom": "Sorbouboul",
+    "nomEn": "Vanilluxe",
+    "types": ["glace"],
+    "location": "Zone sauvage nº 20 | Évolution de Sorboul au niveau 47"
+  },
+  {
+    "id": 116,
+    "numero": 322,
+    "nom": "Chamallot",
+    "nomEn": "Numel",
+    "types": ["feu", "sol"],
+    "location": "Zone sauvage nº 8"
+  },
+  {
+    "id": 117,
+    "numero": 323,
+    "nom": "Camérupt",
+    "nomEn": "Camerupt",
+    "types": ["feu", "sol"],
+    "location": "Zone sauvage nº 8 | Évolution de Chamallot au niveau 33"
+  },
+  {
+    "id": 118,
+    "numero": 449,
+    "nom": "Hippopotas",
+    "nomEn": "Hippopotas",
+    "types": ["sol"],
+    "location": "Zone sauvage nº 7"
+  },
+  {
+    "id": 119,
+    "numero": 450,
+    "nom": "Hippodocus",
+    "nomEn": "Hippowdon",
+    "types": ["sol"],
+    "location": "Zone sauvage nº 20 | Évolution de Hippopotas au niveau 34"
+  },
+  {
+    "id": 120,
+    "numero": 529,
+    "nom": "Rototaupe",
+    "nomEn": "Drilbur",
+    "types": ["sol"],
+    "location": "Zone sauvage nº 8, 14"
+  },
+  {
+    "id": 121,
+    "numero": 530,
+    "nom": "Minotaupe",
+    "nomEn": "Excadrill",
+    "types": ["sol", "acier"],
+    "location": "Zone sauvage nº 14 | Évolution de Rototaupe au niveau 31"
+  },
+  {
+    "id": 122,
+    "numero": 551,
+    "nom": "Mascaïman",
+    "nomEn": "Sandile",
+    "types": ["sol", "tenebres"],
+    "location": "Zone sauvage nº 8"
+  },
+  {
+    "id": 123,
+    "numero": 552,
+    "nom": "Escroco",
+    "nomEn": "Krokorok",
+    "types": ["sol", "tenebres"],
+    "location": "Zone sauvage nº 8 | Évolution de Mascaïman au niveau 29"
+  },
+  {
+    "id": 124,
+    "numero": 553,
+    "nom": "Crocorible",
+    "nomEn": "Krookodile",
+    "types": ["sol", "tenebres"],
+    "location": "Zone sauvage nº 20 | Évolution de Escroco au niveau 40"
+  },
+  {
+    "id": 125,
+    "numero": 66,
+    "nom": "Machoc",
+    "nomEn": "Machop",
+    "types": ["combat"],
+    "location": "Zone sauvage nº 8, 12"
+  },
+  {
+    "id": 126,
+    "numero": 67,
+    "nom": "Machopeur",
+    "nomEn": "Machoke",
+    "types": ["combat"],
+    "location": "Zone sauvage nº 12 | Évolution de Machoc au niveau 28"
+  },
+  {
+    "id": 127,
+    "numero": 68,
+    "nom": "Mackogneur",
+    "nomEn": "Machamp",
+    "types": ["combat"],
+    "location": "Zone sauvage nº 20 | Évolution de Machopeur par échange"
+  },
+  {
+    "id": 128,
+    "numero": 443,
+    "nom": "Griknot",
+    "nomEn": "Gible",
+    "types": ["dragon", "sol"],
+    "location": "Zone sauvage nº 8"
+  },
+  {
+    "id": 129,
+    "numero": 444,
+    "nom": "Carmache",
+    "nomEn": "Gabite",
+    "types": ["dragon", "sol"],
+    "location": "Évolution de Griknot au niveau 24"
+  },
+  {
+    "id": 130,
+    "numero": 445,
+    "nom": "Carchacrok",
+    "nomEn": "Garchomp",
+    "types": ["dragon", "sol"],
+    "location": "Zone sauvage nº 20 | Évolution de Carmache au niveau 48"
+  },
+  {
+    "id": 131,
+    "numero": 703,
+    "nom": "Strassie",
+    "nomEn": "Carbink",
+    "types": ["roche", "fee"],
+    "location": "Zone sauvage nº 9, 20"
+  },
+  {
+    "id": 132,
+    "numero": 302,
+    "nom": "Ténéfix",
+    "nomEn": "Sableye",
+    "types": ["tenebres", "spectre"],
+    "location": "Zone sauvage nº 9, 20"
+  },
+  {
+    "id": 133,
+    "numero": 303,
+    "nom": "Mysdibule",
+    "nomEn": "Mawile",
+    "types": ["acier", "fee"],
+    "location": "Zone sauvage nº 9, 17"
+  },
+  {
+    "id": 134,
+    "numero": 359,
+    "nom": "Absol",
+    "nomEn": "Absol",
+    "types": ["tenebres"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 135,
+    "numero": 447,
+    "nom": "Riolu",
+    "nomEn": "Riolu",
+    "types": ["combat"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 136,
+    "numero": 448,
+    "nom": "Lucario",
+    "nomEn": "Lucario",
+    "types": ["combat", "acier"],
+    "location": "Zone sauvage nº 20 | Évolution de Riolu par amitié le jour"
+  },
+  {
+    "id": 137,
+    "numero": 79,
+    "nom": "Ramoloss",
+    "nomEn": "Slowpoke",
+    "types": ["eau", "psy"],
+    "location": "Zone sauvage nº 10, 11"
+  },
+  {
+    "id": 138,
+    "numero": 80,
+    "nom": "Flagadoss",
+    "nomEn": "Slowbro",
+    "types": ["eau", "psy"],
+    "location": "Zone sauvage nº 11 | Évolution de Ramoloss au niveau 37"
+  },
+  {
+    "id": 139,
+    "numero": 199,
+    "nom": "Roigada",
+    "nomEn": "Slowking",
+    "types": ["eau", "psy"],
+    "location": "Évolution de Ramoloss par échange avec Roche Royale"
+  },
+  {
+    "id": 140,
+    "numero": 318,
+    "nom": "Carvanha",
+    "nomEn": "Carvanha",
+    "types": ["eau", "tenebres"],
+    "location": "Zone sauvage nº 10"
+  },
+  {
+    "id": 141,
+    "numero": 319,
+    "nom": "Sharpedo",
+    "nomEn": "Sharpedo",
+    "types": ["eau", "tenebres"],
+    "location": "Zone sauvage nº 10 | Évolution de Carvanha au niveau 30"
+  },
+  {
+    "id": 142,
+    "numero": 602,
+    "nom": "Anchwatt",
+    "nomEn": "Tynamo",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 10"
+  },
+  {
+    "id": 143,
+    "numero": 603,
+    "nom": "Lampéroie",
+    "nomEn": "Eelektrik",
+    "types": ["electrik"],
+    "location": "Évolution de Anchwatt au niveau 39"
+  },
+  {
+    "id": 144,
+    "numero": 604,
+    "nom": "Ohmassacre",
+    "nomEn": "Eelektross",
+    "types": ["electrik"],
+    "location": "Zone sauvage nº 20 | Évolution de Lampéroie avec Pierre Foudre"
+  },
+  {
+    "id": 145,
+    "numero": 147,
+    "nom": "Minidraco",
+    "nomEn": "Dratini",
+    "types": ["dragon"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 146,
+    "numero": 148,
+    "nom": "Draco",
+    "nomEn": "Dragonair",
+    "types": ["dragon"],
+    "location": "Évolution de Minidraco au niveau 30"
+  },
+  {
+    "id": 147,
+    "numero": 149,
+    "nom": "Dracolosse",
+    "nomEn": "Dragonite",
+    "types": ["dragon", "vol"],
+    "location": "Zone sauvage nº 20 | Évolution de Draco au niveau 55"
+  },
+  {
+    "id": 148,
+    "numero": 1,
+    "nom": "Bulbizarre",
+    "nomEn": "Bulbasaur",
+    "types": ["plante", "poison"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 149,
+    "numero": 2,
+    "nom": "Herbizarre",
+    "nomEn": "Ivysaur",
+    "types": ["plante", "poison"],
+    "location": "Évolution de Bulbizarre au niveau 16"
+  },
+  {
+    "id": 150,
+    "numero": 3,
+    "nom": "Florizarre",
+    "nomEn": "Venusaur",
+    "types": ["plante", "poison"],
+    "location": "Évolution de Herbizarre au niveau 32"
+  },
+  {
+    "id": 151,
+    "numero": 4,
+    "nom": "Salamèche",
+    "nomEn": "Charmander",
+    "types": ["feu"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 152,
+    "numero": 5,
+    "nom": "Reptincel",
+    "nomEn": "Charmeleon",
+    "types": ["feu"],
+    "location": "Évolution de Salamèche au niveau 16"
+  },
+  {
+    "id": 153,
+    "numero": 6,
+    "nom": "Dracaufeu",
+    "nomEn": "Charizard",
+    "types": ["feu", "vol"],
+    "location": "Évolution de Reptincel au niveau 36"
+  },
+  {
+    "id": 154,
+    "numero": 7,
+    "nom": "Carapuce",
+    "nomEn": "Squirtle",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 155,
+    "numero": 8,
+    "nom": "Carabaffe",
+    "nomEn": "Wartortle",
+    "types": ["eau"],
+    "location": "Évolution de Carapuce au niveau 16"
+  },
+  {
+    "id": 156,
+    "numero": 9,
+    "nom": "Tortank",
+    "nomEn": "Blastoise",
+    "types": ["eau"],
+    "location": "Évolution de Carabaffe au niveau 36"
+  },
+  {
+    "id": 157,
+    "numero": 618,
+    "nom": "Limonde",
+    "nomEn": "Stunfisk",
+    "types": ["sol", "electrik"],
+    "location": "Zone sauvage nº 11, 20"
+  },
+  {
+    "id": 158,
+    "numero": 676,
+    "nom": "Couafarel",
+    "nomEn": "Furfrou",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 11, 19, 20"
+  },
+  {
+    "id": 159,
+    "numero": 686,
+    "nom": "Sepiatop",
+    "nomEn": "Inkay",
+    "types": ["tenebres", "psy"],
+    "location": "Zone sauvage nº 11 | Égouts"
+  },
+  {
+    "id": 160,
+    "numero": 687,
+    "nom": "Sepiatroce",
+    "nomEn": "Malamar",
+    "types": ["tenebres", "psy"],
+    "location": "Zone sauvage nº 20 | Évolution de Sepiatop au niveau 30 (console retournée)"
+  },
+  {
+    "id": 161,
+    "numero": 690,
+    "nom": "Venalgue",
+    "nomEn": "Skrelp",
+    "types": ["poison", "eau"],
+    "location": "Égouts (Accès Principale et canal)"
+  },
+  {
+    "id": 162,
+    "numero": 691,
+    "nom": "Kravarech",
+    "nomEn": "Dragalge",
+    "types": ["poison", "dragon"],
+    "location": "Zone sauvage nº 20 | Égouts | Évolution de Venalgue au niveau 48"
+  },
+  {
+    "id": 163,
+    "numero": 692,
+    "nom": "Flingouste",
+    "nomEn": "Clauncher",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 11"
+  },
+  {
+    "id": 164,
+    "numero": 693,
+    "nom": "Gamblast",
+    "nomEn": "Clawitzer",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 11 | Évolution de Flingouste au niveau 37"
+  },
+  {
+    "id": 165,
+    "numero": 704,
+    "nom": "Mucuscule",
+    "nomEn": "Goomy",
+    "types": ["dragon"],
+    "location": "Égouts (Accès Principale)"
+  },
+  {
+    "id": 166,
+    "numero": 705,
+    "nom": "Colimucus",
+    "nomEn": "Sliggoo",
+    "types": ["dragon"],
+    "location": "Évolution de Mucuscule au niveau 40"
+  },
+  {
+    "id": 167,
+    "numero": 706,
+    "nom": "Muplodocus",
+    "nomEn": "Goodra",
+    "types": ["dragon"],
+    "location": "Zone sauvage nº 20 | Évolution de Colimucus au niveau 50 (avec pluie)"
+  },
+  {
+    "id": 168,
+    "numero": 225,
+    "nom": "Cadoizo",
+    "nomEn": "Delibird",
+    "types": ["glace", "vol"],
+    "location": "Zone sauvage nº 12, 20"
+  },
+  {
+    "id": 169,
+    "numero": 361,
+    "nom": "Stalgamin",
+    "nomEn": "Snorunt",
+    "types": ["glace"],
+    "location": "Zone sauvage nº 12"
+  },
+  {
+    "id": 170,
+    "numero": 362,
+    "nom": "Oniglali",
+    "nomEn": "Glalie",
+    "types": ["glace"],
+    "location": "Évolution de Stalgamin au niveau 42"
+  },
+  {
+    "id": 171,
+    "numero": 478,
+    "nom": "Momartik",
+    "nomEn": "Froslass",
+    "types": ["glace", "spectre"],
+    "location": "Zone sauvage nº 20 | Évolution de Stalgamin femelle avec Pierre Aube"
+  },
+  {
+    "id": 172,
+    "numero": 459,
+    "nom": "Blizzi",
+    "nomEn": "Snover",
+    "types": ["plante", "glace"],
+    "location": "Zone sauvage nº 12"
+  },
+  {
+    "id": 173,
+    "numero": 460,
+    "nom": "Blizzaroi",
+    "nomEn": "Abomasnow",
+    "types": ["plante", "glace"],
+    "location": "Zone sauvage nº 12 | Évolution de Blizzi au niveau 40"
+  },
+  {
+    "id": 174,
+    "numero": 712,
+    "nom": "Grelaçon",
+    "nomEn": "Bergmite",
+    "types": ["glace"],
+    "location": "Zone sauvage nº 12"
+  },
+  {
+    "id": 175,
+    "numero": 713,
+    "nom": "Séracrawl",
+    "nomEn": "Avalugg",
+    "types": ["glace"],
+    "location": "Zone sauvage nº 12 | Évolution de Grelaçon au niveau 37"
+  },
+  {
+    "id": 176,
+    "numero": 123,
+    "nom": "Insécateur",
+    "nomEn": "Scyther",
+    "types": ["insecte", "vol"],
+    "location": "Zone sauvage nº 13"
+  },
+  {
+    "id": 177,
+    "numero": 212,
+    "nom": "Cizayox",
+    "nomEn": "Scizor",
+    "types": ["insecte", "acier"],
+    "location": "Évolution de Insécateur par échange avec Peau Métal"
+  },
+  {
+    "id": 178,
+    "numero": 127,
+    "nom": "Scarabrute",
+    "nomEn": "Pinsir",
+    "types": ["insecte"],
+    "location": "Zone sauvage nº 13, 20"
+  },
+  {
+    "id": 179,
+    "numero": 214,
+    "nom": "Scarhino",
+    "nomEn": "Heracross",
+    "types": ["insecte", "combat"],
+    "location": "Zone sauvage nº 13, 20"
+  },
+  {
+    "id": 180,
+    "numero": 587,
+    "nom": "Emolga",
+    "nomEn": "Emolga",
+    "types": ["electrik", "vol"],
+    "location": "Zone sauvage nº 14"
+  },
+  {
+    "id": 181,
+    "numero": 701,
+    "nom": "Brutalibré",
+    "nomEn": "Hawlucha",
+    "types": ["combat", "vol"],
+    "location": "Zone sauvage nº 20"
+  },
+  {
+    "id": 182,
+    "numero": 708,
+    "nom": "Brocélôme",
+    "nomEn": "Phantump",
+    "types": ["spectre", "plante"],
+    "location": "Zone sauvage nº 13"
+  },
+  {
+    "id": 183,
+    "numero": 709,
+    "nom": "Desséliande",
+    "nomEn": "Trevenant",
+    "types": ["spectre", "plante"],
+    "location": "Zone sauvage nº 13, 15 | Évolution de Brocélôme par échange"
+  },
+  {
+    "id": 184,
+    "numero": 559,
+    "nom": "Baggiguane",
+    "nomEn": "Scraggy",
+    "types": ["tenebres", "combat"],
+    "location": "Égouts (Accès Principale)"
+  },
+  {
+    "id": 185,
+    "numero": 560,
+    "nom": "Baggaïd",
+    "nomEn": "Scrafty",
+    "types": ["tenebres", "combat"],
+    "location": "Zone sauvage nº 20 | Évolution de Baggiguane au niveau 39"
+  },
+  {
+    "id": 186,
+    "numero": 714,
+    "nom": "Sonistrelle",
+    "nomEn": "Noibat",
+    "types": ["vol", "dragon"],
+    "location": "Zone sauvage nº 15, 18 | Égouts"
+  },
+  {
+    "id": 187,
+    "numero": 715,
+    "nom": "Bruyverne",
+    "nomEn": "Noivern",
+    "types": ["vol", "dragon"],
+    "location": "Zone sauvage nº 18, 20 | Évolution de Sonistrelle au niveau 48"
+  },
+  {
+    "id": 188,
+    "numero": 707,
+    "nom": "Trousselin",
+    "nomEn": "Klefki",
+    "types": ["acier", "fee"],
+    "location": "Zone sauvage nº 17, 20 | Égouts"
+  },
+  {
+    "id": 189,
+    "numero": 607,
+    "nom": "Funécire",
+    "nomEn": "Litwick",
+    "types": ["spectre", "feu"],
+    "location": "Égouts (Accès Principale)"
+  },
+  {
+    "id": 190,
+    "numero": 608,
+    "nom": "Mélancolux",
+    "nomEn": "Lampent",
+    "types": ["spectre", "feu"],
+    "location": "Zone sauvage nº 17 | Évolution de Funécire au niveau 41"
+  },
+  {
+    "id": 191,
+    "numero": 609,
+    "nom": "Lugulabre",
+    "nomEn": "Chandelure",
+    "types": ["spectre", "feu"],
+    "location": "Zone sauvage nº 20 | Évolution de Mélancolux avec Pierre Nuit"
+  },
+  {
+    "id": 192,
+    "numero": 142,
+    "nom": "Ptéra",
+    "nomEn": "Aerodactyl",
+    "types": ["roche", "vol"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 193,
+    "numero": 696,
+    "nom": "Ptyranidur",
+    "nomEn": "Tyrunt",
+    "types": ["roche", "dragon"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 194,
+    "numero": 697,
+    "nom": "Rexillius",
+    "nomEn": "Tyrantrum",
+    "types": ["roche", "dragon"],
+    "location": "Évolution de Ptyranidur au niveau 39 le jour"
+  },
+  {
+    "id": 195,
+    "numero": 698,
+    "nom": "Amagara",
+    "nomEn": "Amaura",
+    "types": ["roche", "glace"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 196,
+    "numero": 699,
+    "nom": "Dragmara",
+    "nomEn": "Aurorus",
+    "types": ["roche", "glace"],
+    "location": "Évolution de Amagara au niveau 39 la nuit"
+  },
+  {
+    "id": 197,
+    "numero": 95,
+    "nom": "Onix",
+    "nomEn": "Onix",
+    "types": ["roche", "sol"],
+    "location": "Zone sauvage nº 14"
+  },
+  {
+    "id": 198,
+    "numero": 208,
+    "nom": "Steelix",
+    "nomEn": "Steelix",
+    "types": ["acier", "sol"],
+    "location": "Zone sauvage nº 3 | Évolution de Onix par échange avec Peau Métal"
+  },
+  {
+    "id": 199,
+    "numero": 304,
+    "nom": "Galekid",
+    "nomEn": "Aron",
+    "types": ["acier", "roche"],
+    "location": "Zone sauvage nº 14"
+  },
+  {
+    "id": 200,
+    "numero": 305,
+    "nom": "Galegon",
+    "nomEn": "Lairon",
+    "types": ["acier", "roche"],
+    "location": "Zone sauvage nº 14 | Évolution de Galekid au niveau 32"
+  },
+  {
+    "id": 201,
+    "numero": 306,
+    "nom": "Galeking",
+    "nomEn": "Aggron",
+    "types": ["acier", "roche"],
+    "location": "Zone sauvage nº 20 | Évolution de Galegon au niveau 42"
+  },
+  {
+    "id": 202,
+    "numero": 694,
+    "nom": "Galvaran",
+    "nomEn": "Helioptile",
+    "types": ["electrik", "normal"],
+    "location": "Zone sauvage nº 14"
+  },
+  {
+    "id": 203,
+    "numero": 695,
+    "nom": "Iguolta",
+    "nomEn": "Heliolisk",
+    "types": ["electrik", "normal"],
+    "location": "Zone sauvage nº 20 | Évolution de Galvaran avec Pierre Soleil"
+  },
+  {
+    "id": 204,
+    "numero": 710,
+    "nom": "Pitrouille",
+    "nomEn": "Pumpkaboo",
+    "types": ["spectre", "plante"],
+    "location": "Zone sauvage nº 15"
+  },
+  {
+    "id": 205,
+    "numero": 711,
+    "nom": "Banshitrouye",
+    "nomEn": "Gourgeist",
+    "types": ["spectre", "plante"],
+    "location": "Zone sauvage nº 15, 20 | Évolution de Pitrouille par échange"
+  },
+  {
+    "id": 206,
+    "numero": 246,
+    "nom": "Embrylex",
+    "nomEn": "Larvitar",
+    "types": ["roche", "sol"],
+    "location": "Zone sauvage nº 15"
+  },
+  {
+    "id": 207,
+    "numero": 247,
+    "nom": "Ymphect",
+    "nomEn": "Pupitar",
+    "types": ["roche", "sol"],
+    "location": "Évolution de Embrylex au niveau 30"
+  },
+  {
+    "id": 208,
+    "numero": 248,
+    "nom": "Tyranocif",
+    "nomEn": "Tyranitar",
+    "types": ["roche", "tenebres"],
+    "location": "Zone sauvage nº 20 | Évolution de Ymphect au niveau 55"
+  },
+  {
+    "id": 209,
+    "numero": 656,
+    "nom": "Grenousse",
+    "nomEn": "Froakie",
+    "types": ["eau"],
+    "location": "Zone sauvage nº 16"
+  },
+  {
+    "id": 210,
+    "numero": 657,
+    "nom": "Croâporal",
+    "nomEn": "Frogadier",
+    "types": ["eau"],
+    "location": "Évolution de Grenousse au niveau 16"
+  },
+  {
+    "id": 211,
+    "numero": 658,
+    "nom": "Amphinobi",
+    "nomEn": "Greninja",
+    "types": ["eau", "tenebres"],
+    "location": "Évolution de Croâporal au niveau 36"
+  },
+  {
+    "id": 212,
+    "numero": 870,
+    "nom": "Hexadron",
+    "nomEn": "Falinks",
+    "types": ["combat"],
+    "location": "Zone sauvage nº 16, 20"
+  },
+  {
+    "id": 213,
+    "numero": 650,
+    "nom": "Marisson",
+    "nomEn": "Chespin",
+    "types": ["plante"],
+    "location": "Zone sauvage nº 17"
+  },
+  {
+    "id": 214,
+    "numero": 651,
+    "nom": "Boguérisse",
+    "nomEn": "Quilladin",
+    "types": ["plante"],
+    "location": "Évolution de Marisson au niveau 16"
+  },
+  {
+    "id": 215,
+    "numero": 652,
+    "nom": "Blindépique",
+    "nomEn": "Chesnaught",
+    "types": ["plante", "combat"],
+    "location": "Évolution de Boguérisse au niveau 36"
+  },
+  {
+    "id": 216,
+    "numero": 227,
+    "nom": "Airmure",
+    "nomEn": "Skarmory",
+    "types": ["acier", "vol"],
+    "location": "Zone sauvage nº 17, 20"
+  },
+  {
+    "id": 217,
+    "numero": 653,
+    "nom": "Feunnec",
+    "nomEn": "Fennekin",
+    "types": ["feu"],
+    "location": "Zone sauvage nº 18"
+  },
+  {
+    "id": 218,
+    "numero": 654,
+    "nom": "Roussil",
+    "nomEn": "Braixen",
+    "types": ["feu"],
+    "location": "Évolution de Feunnec au niveau 16"
+  },
+  {
+    "id": 219,
+    "numero": 655,
+    "nom": "Goupelin",
+    "nomEn": "Delphox",
+    "types": ["feu", "psy"],
+    "location": "Évolution de Roussil au niveau 36"
+  },
+  {
+    "id": 220,
+    "numero": 371,
+    "nom": "Draby",
+    "nomEn": "Bagon",
+    "types": ["dragon"],
+    "location": "Zone sauvage nº 18"
+  },
+  {
+    "id": 221,
+    "numero": 372,
+    "nom": "Drackhaus",
+    "nomEn": "Shelgon",
+    "types": ["dragon"],
+    "location": "Évolution de Draby au niveau 30"
+  },
+  {
+    "id": 222,
+    "numero": 373,
+    "nom": "Drattak",
+    "nomEn": "Salamence",
+    "types": ["dragon", "vol"],
+    "location": "Zone sauvage nº 18 | Évolution de Drackhaus au niveau 50"
+  },
+  {
+    "id": 223,
+    "numero": 115,
+    "nom": "Kangourex",
+    "nomEn": "Kangaskhan",
+    "types": ["normal"],
+    "location": "Zone sauvage nº 19, 20"
+  },
+  {
+    "id": 224,
+    "numero": 780,
+    "nom": "Draïeul",
+    "nomEn": "Drampa",
+    "types": ["normal", "dragon"],
+    "location": "Zone sauvage nº 19, 20"
+  },
+  {
+    "id": 225,
+    "numero": 374,
+    "nom": "Terhal",
+    "nomEn": "Beldum",
+    "types": ["acier", "psy"],
+    "location": "Non disponible en capture"
+  },
+  {
+    "id": 226,
+    "numero": 375,
+    "nom": "Métang",
+    "nomEn": "Metang",
+    "types": ["acier", "psy"],
+    "location": "Évolution de Terhal au niveau 20"
+  },
+  {
+    "id": 227,
+    "numero": 376,
+    "nom": "Métalosse",
+    "nomEn": "Metagross",
+    "types": ["acier", "psy"],
+    "location": "Zone sauvage nº 20 | Évolution de Métang au niveau 45"
+  },
+  {
+    "id": 228,
+    "numero": 716,
+    "nom": "Xerneas",
+    "nomEn": "Xerneas",
+    "types": ["fee"],
+    "location": "Légendaire"
+  },
+  {
+    "id": 229,
+    "numero": 717,
+    "nom": "Yveltal",
+    "nomEn": "Yveltal",
+    "types": ["tenebres", "vol"],
+    "location": "Légendaire"
+  },
+  {
+    "id": 230,
+    "numero": 718,
+    "nom": "Zygarde",
+    "nomEn": "Zygarde",
+    "types": ["dragon", "sol"],
+    "location": "Légendaire"
+  }
+]
+

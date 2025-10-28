@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny Dex Multi - Challenge Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">
+                    <span class="sparkle">✨</span>
+                    Shiny Dex Multi
+                    <span class="sparkle">✨</span>
+                </h1>
+                <p class="subtitle">Challenge Pokémon Chromatiques</p>
+            </div>
+            
+            <!-- Stats Bar -->
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <span class="stat-label">Progression</span>
+                    <span class="stat-value">
+                        <span id="caught-count">0</span> / 230
+                    </span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Pourcentage</span>
+                    <span class="stat-value" id="percentage">0%</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Filters -->
+        <div class="filters">
+            <div class="filter-group">
+                <input 
+                    type="text" 
+                    id="search-input" 
+                    class="search-input" 
+                    placeholder="🔍 Rechercher un Pokémon..."
+                >
+            </div>
+            
+            <div class="filter-group">
+                <select id="type-filter" class="filter-select">
+                    <option value="all">Tous les types</option>
+                    <option value="normal">Normal</option>
+                    <option value="feu">Feu</option>
+                    <option value="eau">Eau</option>
+                    <option value="plante">Plante</option>
+                    <option value="electrik">Électrik</option>
+                    <option value="glace">Glace</option>
+                    <option value="combat">Combat</option>
+                    <option value="poison">Poison</option>
+                    <option value="sol">Sol</option>
+                    <option value="vol">Vol</option>
+                    <option value="psy">Psy</option>
+                    <option value="insecte">Insecte</option>
+                    <option value="roche">Roche</option>
+                    <option value="spectre">Spectre</option>
+                    <option value="dragon">Dragon</option>
+                    <option value="tenebres">Ténèbres</option>
+                    <option value="acier">Acier</option>
+                    <option value="fee">Fée</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <select id="status-filter" class="filter-select">
+                    <option value="all">Tous</option>
+                    <option value="caught">Capturés</option>
+                    <option value="uncaught">Non capturés</option>
+                </select>
+            </div>
+
+            <button class="btn-reset" id="reset-btn">
+                🔄 Réinitialiser
+            </button>
+        </div>
+
+        <!-- Pokemon Grid -->
+        <div class="pokemon-grid" id="pokemon-grid">
+            <!-- Les cartes Pokémon seront générées par JavaScript -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Challenge Shiny Dex Multi - Bonne chance ! 🍀</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

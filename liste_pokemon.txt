@@ -1,0 +1,549 @@
+1	152	Pokémon #152	Germignon
+Chikorita	Type plante ZA	Zone sauvage nº 20
+2	153	Pokémon #153	Macronium
+Bayleef	Type plante ZA	Évolution de Germignon au niveau 16
+3	154	Pokémon #154	Méganium
+Meganium	Type plante ZA	Évolution de Macronium au niveau 32
+4	498	Pokémon #498	Gruikui
+Tepig	Type feu ZA	Zone sauvage nº 20
+5	499	Pokémon #499	Grotichon
+Pignite	Type feu ZA Type combat ZA	Évolution de Gruikui au niveau 17
+6	500	Pokémon #500	Roitiflam
+Emboar	Type feu ZA Type combat ZA	Évolution de Grotichon au niveau 36
+7	158	Pokémon #158	Kaiminus
+Totodile	Type eau ZA	Zone sauvage nº 20
+8	159	Pokémon #159	Crocrodil
+Croconaw	Type eau ZA	Évolution de Kaiminus au niveau 18
+9	160	Pokémon #160	Aligatueur
+Feraligatr	Type eau ZA	Évolution de Crocrodil au niveau 30
+10	661	Pokémon #661	Passerouge
+Fletchling	Type normal ZA Type vol ZA	Zone sauvage nº 1, Zone sauvage nº 3, Zone sauvage nº 5
+11	662	Pokémon #662	Braisillon
+Fletchinder	Type feu ZA Type vol ZA	Zone sauvage nº 5, Zone sauvage nº 7, Zone sauvage nº 9
+Évolution de Passerouge au niveau 17
+12	663	Pokémon #663	Flambusard
+Talonflame	Type feu ZA Type vol ZA	Zone sauvage nº 17, Zone sauvage nº 20
+Évolution de Braisillon au niveau 35
+13	659	Pokémon #659	Sapereau
+Bunnelby	Type normal ZA	Zone sauvage nº 1, Zone sauvage nº 5
+14	660	Pokémon #660	Excavarenne
+Diggersby	Type normal ZA Type sol ZA	Zone sauvage nº 17, Zone sauvage nº 20
+Évolution de Sapereau au niveau 20
+15	664	Pokémon #664	Lépidonille
+Scatterbug	Type insecte ZA	Zone sauvage nº 1
+16	665	Pokémon #665	Pérégrain
+Spewpa	Type insecte ZA	Zone sauvage nº 4
+Évolution de Lépidonille au niveau 9
+17	666	Pokémon #666	Prismillon
+Vivillon	Type insecte ZA Type vol ZA	Zone sauvage nº 13, Zone sauvage nº 20
+Évolution de Pérégrain au niveau 12
+18	13	Pokémon #13	Aspicot
+Weedle	Type insecte ZA Type poison ZA	Zone sauvage nº 1
+19	14	Pokémon #14	Coconfort
+Kakuna	Type insecte ZA Type poison ZA	Zone sauvage nº 2, Zone sauvage nº 7
+Évolution de Aspicot au niveau 7
+20	15	Pokémon #15	Dardargnan
+Beedrill	Type insecte ZA Type poison ZA	Zone sauvage nº 15
+Évolution de Coconfort au niveau 10
+21	16	Pokémon #16	Roucool
+Pidgey	Type normal ZA Type vol ZA	Zone sauvage nº 1, Zone sauvage nº 5
+22	17	Pokémon #17	Roucoups
+Pidgeotto	Type normal ZA Type vol ZA	Zone sauvage nº 5
+Évolution de Roucool au niveau 18
+23	18	Pokémon #18	Roucarnage
+Pidgeot	Type normal ZA Type vol ZA	Évolution de Roucoups au niveau 36
+24	179	Pokémon #179	Wattouat
+Mareep	Type electrik ZA	Zone sauvage nº 1
+25	180	Pokémon #180	Lainergie
+Flaaffy	Type electrik ZA	Zone sauvage nº 6, Zone sauvage nº 16
+Évolution de Wattouat au niveau 15
+26	181	Pokémon #181	Pharamp
+Ampharos	Type electrik ZA	Zone sauvage nº 16
+Évolution de Lainergie au niveau 30
+27	504	Pokémon #504	Ratentif
+Patrat	Type normal ZA	Zone sauvage nº 2, Zone sauvage nº 4, Zone sauvage nº 5, Égouts (Accès Principale)
+28	505	Pokémon #505	Miradar
+Watchog	Type normal ZA	Zone sauvage nº 10
+Évolution de Ratentif au niveau 20
+29	406	Pokémon #406	Rozbouton
+Budew	Type plante ZA Type poison ZA	Zone sauvage nº 2
+30	315	Pokémon #315	Rosélia
+Roselia	Type plante ZA Type poison ZA	Zone sauvage nº 7
+Évolution de Rozbouton par montée de niveau avec beaucoup d'amitié le jour
+31	407	Pokémon #407	Roserade
+Roserade	Type plante ZA Type poison ZA	Zone sauvage nº 20
+Évolution de Rosélia en utilisant une Pierre Éclat
+32	129	Pokémon #129	Magicarpe
+Magikarp	Type eau ZA	Zone sauvage nº 2, Zone sauvage nº 6
+33	130	Pokémon #130	Léviator
+Gyarados	Type eau ZA Type vol ZA	Zone sauvage nº 11, Zone sauvage nº 20
+Évolution de Magicarpe au niveau 20
+34	688	Pokémon #688	Opermine
+Binacle	Type roche ZA Type eau ZA	Zone sauvage nº 2, Zone sauvage nº 5, Zone sauvage nº 6
+35	689	Pokémon #689	Golgopathe
+Barbaracle	Type roche ZA Type eau ZA	Zone sauvage nº 16, Zone sauvage nº 20
+Évolution de Opermine au niveau 39
+36	120	Pokémon #120	Stari
+Staryu	Type eau ZA	Zone sauvage nº 2, Zone sauvage nº 10
+37	121	Pokémon #121	Staross
+Starmie	Type eau ZA Type psy ZA	Zone sauvage nº 16, Zone sauvage nº 20
+Évolution de Stari en utilisant une Pierre Eau
+38	669	Pokémon #669	Flabébé
+Flabébé	Type fee ZA	Zone sauvage nº 3, Zone sauvage nº 3, Zone sauvage nº 3
+39	670	Pokémon #670	Floette
+Floette	Type fee ZA	Zone sauvage nº 7, Zone sauvage nº 7
+Évolution de Flabébé au niveau 19
+40	671	Pokémon #671	Florges
+Florges	Type fee ZA	Zone sauvage nº 16, Zone sauvage nº 20
+Évolution de Floette en utilisant une Pierre Éclat
+41	672	Pokémon #672	Cabriolaine
+Skiddo	Type plante ZA	Zone sauvage nº 3
+42	673	Pokémon #673	Chevroum
+Gogoat	Type plante ZA	Zone sauvage nº 12, Zone sauvage nº 20
+Évolution de Cabriolaine au niveau 32
+43	677	Pokémon #677	Psystigri
+Espurr	Type psy ZA	Zone sauvage nº 3, Zone sauvage nº 9
+44	678	Pokémon #678	Mistigrix
+Meowstic	Type psy ZA	Zone sauvage nº 9
+Évolution de Psystigri au niveau 25
+45	667	Pokémon #667	Hélionceau
+Litleo	Type feu ZA Type normal ZA	Zone sauvage nº 3
+46	668	Pokémon #668	Némélios
+Pyroar	Type feu ZA Type normal ZA	Zone sauvage nº 17
+Évolution de Hélionceau au niveau 35
+47	674	Pokémon #674	Pandespiègle
+Pancham	Type combat ZA	Zone sauvage nº 3
+48	675	Pokémon #675	Pandarbare
+Pangoro	Type combat ZA Type tenebres ZA	Zone sauvage nº 9, Zone sauvage nº 20
+Évolution de Pandespiègle au niveau 32 avec un Pokémon de type Ténèbres dans l'équipe
+49	568	Pokémon #568	Miamiasme
+Trubbish	Type poison ZA	-
+50	569	Pokémon #569	Miasmax
+Garbodor	Type poison ZA	Zone sauvage nº 20
+Évolution de Miamiasme au niveau 36
+51	702	Pokémon #702	Dedenne
+Dedenne	Type electrik ZA Type fee ZA	Zone sauvage nº 20, Sushis sans Chichis
+52	172	Pokémon #172	Pichu
+Pichu	Type electrik ZA	Zone sauvage nº 1
+53	25	Pokémon #25	Pikachu
+Pikachu	Type electrik ZA	Zone sauvage nº 3, Zone sauvage nº 6
+Évolution de Pichu par montée de niveau avec beaucoup d'amitié
+54	26	Pokémon #26	Raichu
+Raichu	Type electrik ZA	Zone sauvage nº 20
+Évolution de Pikachu en utilisant une Pierre Foudre
+55	173	Pokémon #173	Mélo
+Cleffa	Type fee ZA	Zone sauvage nº 19
+56	35	Pokémon #35	Mélofée
+Clefairy	Type fee ZA	Zone sauvage nº 19
+Évolution de Mélo par montée de niveau avec beaucoup d'amitié
+57	36	Pokémon #36	Mélodelfe
+Clefable	Type fee ZA	Zone sauvage nº 20
+Évolution de Mélofée en utilisant une Pierre Lune
+58	167	Pokémon #167	Mimigal
+Spinarak	Type insecte ZA Type poison ZA	Zone sauvage nº 4
+59	168	Pokémon #168	Migalos
+Ariados	Type insecte ZA Type poison ZA	Zone sauvage nº 20, Égouts (Accès canal)
+Évolution de Mimigal au niveau 22
+60	23	Pokémon #23	Abo
+Ekans	Type poison ZA	Zone sauvage nº 4
+61	24	Pokémon #24	Arbok
+Arbok	Type poison ZA	Zone sauvage nº 10
+Évolution de Abo au niveau 22
+62	63	Pokémon #63	Abra
+Abra	Type psy ZA	Zone sauvage nº 5
+63	64	Pokémon #64	Kadabra
+Kadabra	Type psy ZA	Zone sauvage nº 6, Zone sauvage nº 9
+Évolution de Abra au niveau 16
+64	65	Pokémon #65	Alakazam
+Alakazam	Type psy ZA	Zone sauvage nº 20
+Évolution de Kadabra par échange
+65	92	Pokémon #92	Fantominus
+Gastly	Type spectre ZA Type poison ZA	Zone sauvage nº 4, Zone sauvage nº 7, Vieux Batiment, Égouts (Accès Principale)
+66	93	Pokémon #93	Spectrum
+Haunter	Type spectre ZA Type poison ZA	Zone sauvage nº 15, Vieux Batiment, Égouts (Accès Principale)
+Évolution de Fantominus au niveau 25
+67	94	Pokémon #94	Ectoplasma
+Gengar	Type spectre ZA Type poison ZA	Zone sauvage nº 20, Vieux Batiment
+Évolution de Spectrum par échange
+68	543	Pokémon #543	Venipatte
+Venipede	Type insecte ZA Type poison ZA	Zone sauvage nº 5
+69	544	Pokémon #544	Scobolide
+Whirlipede	Type insecte ZA Type poison ZA	Zone sauvage nº 5, Zone sauvage nº 15
+Évolution de Venipatte au niveau 22
+70	545	Pokémon #545	Brutapode
+Scolipede	Type insecte ZA Type poison ZA	Zone sauvage nº 15, Zone sauvage nº 20
+Évolution de Scobolide au niveau 30
+71	679	Pokémon #679	Monorpale
+Honedge	Type acier ZA Type spectre ZA	Zone sauvage nº 4
+72	680	Pokémon #680	Dimoclès
+Doublade	Type acier ZA Type spectre ZA	Évolution de Monorpale au niveau 35
+73	681	Pokémon #681	Exagide
+Aegislash	Type acier ZA Type spectre ZA	Zone sauvage nº 20
+Évolution de Dimoclès en utilisant une Pierre Nuit
+74	69	Pokémon #69	Chétiflor
+Bellsprout	Type plante ZA Type poison ZA	Zone sauvage nº 5, Zone sauvage nº 10
+75	70	Pokémon #70	Boustiflor
+Weepinbell	Type plante ZA Type poison ZA	Zone sauvage nº 13
+Évolution de Chétiflor au niveau 21
+76	71	Pokémon #71	Empiflor
+Victreebel	Type plante ZA Type poison ZA	Zone sauvage nº 20
+Évolution de Boustiflor en utilisant une Pierre Plante
+77	511	Pokémon #511	Feuillajou
+Pansage	Type plante ZA	-
+78	512	Pokémon #512	Feuiloutan
+Simisage	Type plante ZA	Zone sauvage nº 20
+Évolution de Feuillajou en utilisant une Pierre Plante
+79	513	Pokémon #513	Flamajou
+Pansear	Type feu ZA	-
+80	514	Pokémon #514	Flamoutan
+Simisear	Type feu ZA	Zone sauvage nº 20
+Évolution de Flamajou en utilisant une Pierre Feu
+81	515	Pokémon #515	Flotajou
+Panpour	Type eau ZA	-
+82	516	Pokémon #516	Flotoutan
+Simipour	Type eau ZA	Zone sauvage nº 20
+Évolution de Flotajou en utilisant une Pierre Eau
+83	307	Pokémon #307	Méditikka
+Meditite	Type combat ZA Type psy ZA	Zone sauvage nº 6
+84	308	Pokémon #308	Charmina
+Medicham	Type combat ZA Type psy ZA	Zone sauvage nº 16, Zone sauvage nº 20
+Évolution de Méditikka au niveau 37
+85	309	Pokémon #309	Dynavolt
+Electrike	Type electrik ZA	Zone sauvage nº 5
+86	310	Pokémon #310	Élecsprint
+Manectric	Type electrik ZA	Zone sauvage nº 9
+Évolution de Dynavolt au niveau 26
+87	280	Pokémon #280	Tarsal
+Ralts	Type psy ZA Type fee ZA	-
+88	281	Pokémon #281	Kirlia
+Kirlia	Type psy ZA Type fee ZA	Évolution de Tarsal au niveau 20
+89	282	Pokémon #282	Gardevoir
+Gardevoir	Type psy ZA Type fee ZA	Zone sauvage nº 20
+Évolution de Kirlia au niveau 30
+90	475	Pokémon #475	Gallame
+Gallade	Type psy ZA Type combat ZA	Zone sauvage nº 5, Zone sauvage nº 20
+Évolution de Kirlia mâle en utilisant une Pierre Aube
+91	228	Pokémon #228	Malosse
+Houndour	Type tenebres ZA Type feu ZA	Zone sauvage nº 6
+92	229	Pokémon #229	Démolosse
+Houndoom	Type tenebres ZA Type feu ZA	Zone sauvage nº 6, Zone sauvage nº 19
+Évolution de Malosse au niveau 24
+93	333	Pokémon #333	Tylton
+Swablu	Type normal ZA Type vol ZA	Zone sauvage nº 6, Zone sauvage nº 18
+94	334	Pokémon #334	Altaria
+Altaria	Type dragon ZA Type vol ZA	Zone sauvage nº 18, Zone sauvage nº 20
+Évolution de Tylton au niveau 35
+95	531	Pokémon #531	Nanméouïe
+Audino	Type normal ZA	Zone sauvage nº 7, Zone sauvage nº 19
+96	682	Pokémon #682	Fluvetin
+Spritzee	Type fee ZA	-
+97	683	Pokémon #683	Cocotine
+Aromatisse	Type fee ZA	Évolution de Fluvetin par échange tenant un Sachet Senteur
+98	684	Pokémon #684	Sucroquin
+Swirlix	Type fee ZA	-
+99	685	Pokémon #685	Cupcanaille
+Slurpuff	Type fee ZA	Évolution de Sucroquin par échange tenant un Chantibonbon
+100	133	Pokémon #133	Évoli
+Eevee	Type normal ZA	Zone sauvage nº 19
+101	134	Pokémon #134	Aquali
+Vaporeon	Type eau ZA	Zone sauvage nº 20
+Évolution de Évoli en utilisant une Pierre Eau
+102	135	Pokémon #135	Voltali
+Jolteon	Type electrik ZA	Zone sauvage nº 20
+Évolution de Évoli en utilisant une Pierre Foudre
+103	136	Pokémon #136	Pyroli
+Flareon	Type feu ZA	Zone sauvage nº 20
+Évolution de Évoli en utilisant une Pierre Feu
+104	196	Pokémon #196	Mentali
+Espeon	Type psy ZA	Évolution de Évoli par montée de niveau avec beaucoup d'amitié le jour
+105	197	Pokémon #197	Noctali
+Umbreon	Type tenebres ZA	Évolution de Évoli par montée de niveau avec beaucoup d'amitié la nuit
+106	470	Pokémon #470	Phyllali
+Leafeon	Type plante ZA	Zone sauvage nº 20
+Évolution de Évoli en utilisant une Pierre Plante
+107	471	Pokémon #471	Givrali
+Glaceon	Type glace ZA	Zone sauvage nº 20
+Évolution de Évoli en utilisant une Pierre Glace
+108	700	Pokémon #700	Nymphali
+Sylveon	Type fee ZA	Zone sauvage nº 20
+Évolution de Évoli par montée de niveau avec beaucoup d'amitié en connaissant une attaque Fée
+109	427	Pokémon #427	Laporeille
+Buneary	Type normal ZA	Zone sauvage nº 6
+110	428	Pokémon #428	Lockpin
+Lopunny	Type normal ZA	Zone sauvage nº 18
+Évolution de Laporeille par montée de niveau avec beaucoup d'amitié
+111	353	Pokémon #353	Polichombr
+Shuppet	Type spectre ZA	Zone sauvage nº 7, Zone sauvage nº 15
+112	354	Pokémon #354	Branette
+Banette	Type spectre ZA	Zone sauvage nº 15
+Évolution de Polichombr au niveau 37
+113	582	Pokémon #582	Sorbébé
+Vanillite	Type glace ZA	Zone sauvage nº 7, Zone sauvage nº 12
+114	583	Pokémon #583	Sorboul
+Vanillish	Type glace ZA	Évolution de Sorbébé au niveau 35
+115	584	Pokémon #584	Sorbouboul
+Vanilluxe	Type glace ZA	Zone sauvage nº 20
+Évolution de Sorboul au niveau 47
+116	322	Pokémon #322	Chamallot
+Numel	Type feu ZA Type sol ZA	Zone sauvage nº 8
+117	323	Pokémon #323	Camérupt
+Camerupt	Type feu ZA Type sol ZA	Zone sauvage nº 8
+Évolution de Chamallot au niveau 33
+118	449	Pokémon #449	Hippopotas
+Hippopotas	Type sol ZA	Zone sauvage nº 7
+119	450	Pokémon #450	Hippodocus
+Hippowdon	Type sol ZA	Zone sauvage nº 20
+Évolution de Hippopotas au niveau 34
+120	529	Pokémon #529	Rototaupe
+Drilbur	Type sol ZA	Zone sauvage nº 8, Zone sauvage nº 14
+121	530	Pokémon #530	Minotaupe
+Excadrill	Type sol ZA Type acier ZA	Zone sauvage nº 14
+Évolution de Rototaupe au niveau 31
+122	551	Pokémon #551	Mascaïman
+Sandile	Type sol ZA Type tenebres ZA	Zone sauvage nº 8
+123	552	Pokémon #552	Escroco
+Krokorok	Type sol ZA Type tenebres ZA	Zone sauvage nº 8
+Évolution de Mascaïman au niveau 29
+124	553	Pokémon #553	Crocorible
+Krookodile	Type sol ZA Type tenebres ZA	Zone sauvage nº 20
+Évolution de Escroco au niveau 40
+125	66	Pokémon #66	Machoc
+Machop	Type combat ZA	Zone sauvage nº 8, Zone sauvage nº 12
+126	67	Pokémon #67	Machopeur
+Machoke	Type combat ZA	Zone sauvage nº 12
+Évolution de Machoc au niveau 28
+127	68	Pokémon #68	Mackogneur
+Machamp	Type combat ZA	Zone sauvage nº 20
+Évolution de Machopeur par échange
+128	443	Pokémon #443	Griknot
+Gible	Type dragon ZA Type sol ZA	Zone sauvage nº 8
+129	444	Pokémon #444	Carmache
+Gabite	Type dragon ZA Type sol ZA	Évolution de Griknot au niveau 24
+130	445	Pokémon #445	Carchacrok
+Garchomp	Type dragon ZA Type sol ZA	Zone sauvage nº 20
+Évolution de Carmache au niveau 48
+131	703	Pokémon #703	Strassie
+Carbink	Type roche ZA Type fee ZA	Zone sauvage nº 9, Zone sauvage nº 20
+132	302	Pokémon #302	Ténéfix
+Sableye	Type tenebres ZA Type spectre ZA	Zone sauvage nº 9, Zone sauvage nº 20
+133	303	Pokémon #303	Mysdibule
+Mawile	Type acier ZA Type fee ZA	Zone sauvage nº 9, Zone sauvage nº 17
+134	359	Pokémon #359	Absol
+Absol	Type tenebres ZA	Zone sauvage nº 20
+135	447	Pokémon #447	Riolu
+Riolu	Type combat ZA	-
+136	448	Pokémon #448	Lucario
+Lucario	Type combat ZA Type acier ZA	Zone sauvage nº 20
+Évolution de Riolu par montée de niveau avec beaucoup d'amitié le jour
+137	79	Pokémon #79	Ramoloss
+Slowpoke	Type eau ZA Type psy ZA	Zone sauvage nº 10, Zone sauvage nº 11
+138	80	Pokémon #80	Flagadoss
+Slowbro	Type eau ZA Type psy ZA	Zone sauvage nº 11
+Évolution de Ramoloss au niveau 37
+139	199	Pokémon #199	Roigada
+Slowking	Type eau ZA Type psy ZA	Évolution de Ramoloss par échange tenant une Roche Royale
+140	318	Pokémon #318	Carvanha
+Carvanha	Type eau ZA Type tenebres ZA	Zone sauvage nº 10
+141	319	Pokémon #319	Sharpedo
+Sharpedo	Type eau ZA Type tenebres ZA	Zone sauvage nº 10
+Évolution de Carvanha au niveau 30
+142	602	Pokémon #602	Anchwatt
+Tynamo	Type electrik ZA	Zone sauvage nº 10
+143	603	Pokémon #603	Lampéroie
+Eelektrik	Type electrik ZA	Évolution de Anchwatt au niveau 39
+144	604	Pokémon #604	Ohmassacre
+Eelektross	Type electrik ZA	Zone sauvage nº 20
+Évolution de Lampéroie en utilisant une Pierre Foudre
+145	147	Pokémon #147	Minidraco
+Dratini	Type dragon ZA	-
+146	148	Pokémon #148	Draco
+Dragonair	Type dragon ZA	Évolution de Minidraco au niveau 30
+147	149	Pokémon #149	Dracolosse
+Dragonite	Type dragon ZA Type vol ZA	Zone sauvage nº 20
+Évolution de Draco au niveau 55
+148	1	Pokémon #1	Bulbizarre
+Bulbasaur	Type plante ZA Type poison ZA	Zone sauvage nº 20
+149	2	Pokémon #2	Herbizarre
+Ivysaur	Type plante ZA Type poison ZA	Évolution de Bulbizarre au niveau 16
+150	3	Pokémon #3	Florizarre
+Venusaur	Type plante ZA Type poison ZA	Évolution de Herbizarre au niveau 32
+151	4	Pokémon #4	Salamèche
+Charmander	Type feu ZA	Zone sauvage nº 20
+152	5	Pokémon #5	Reptincel
+Charmeleon	Type feu ZA	Évolution de Salamèche au niveau 16
+153	6	Pokémon #6	Dracaufeu
+Charizard	Type feu ZA Type vol ZA	Évolution de Reptincel au niveau 36
+154	7	Pokémon #7	Carapuce
+Squirtle	Type eau ZA	Zone sauvage nº 20
+155	8	Pokémon #8	Carabaffe
+Wartortle	Type eau ZA	Évolution de Carapuce au niveau 16
+156	9	Pokémon #9	Tortank
+Blastoise	Type eau ZA	Évolution de Carabaffe au niveau 36
+157	618	Pokémon #618	Limonde
+Stunfisk	Type sol ZA Type electrik ZA	Zone sauvage nº 11, Zone sauvage nº 20
+158	676	Pokémon #676	Couafarel
+Furfrou	Type normal ZA	Zone sauvage nº 11, Zone sauvage nº 19, Zone sauvage nº 20
+159	686	Pokémon #686	Sepiatop
+Inkay	Type tenebres ZA Type psy ZA	Zone sauvage nº 11, Égouts (Accès Principale), Égouts (Accès canal)
+160	687	Pokémon #687	Sepiatroce
+Malamar	Type tenebres ZA Type psy ZA	Zone sauvage nº 20
+Évolution de Sepiatop au niveau 30 avec la console retournée
+161	690	Pokémon #690	Venalgue
+Skrelp	Type poison ZA Type eau ZA	Égouts (Accès Principale), Égouts (Accès canal)
+162	691	Pokémon #691	Kravarech
+Dragalge	Type poison ZA Type dragon ZA	Zone sauvage nº 20, Égouts (Accès Principale)
+Évolution de Venalgue au niveau 48
+163	692	Pokémon #692	Flingouste
+Clauncher	Type eau ZA	Zone sauvage nº 11
+164	693	Pokémon #693	Gamblast
+Clawitzer	Type eau ZA	Zone sauvage nº 11
+Évolution de Flingouste au niveau 37
+165	704	Pokémon #704	Mucuscule
+Goomy	Type dragon ZA	Égouts (Accès Principale)
+166	705	Pokémon #705	Colimucus
+Sliggoo	Type dragon ZA	Évolution de Mucuscule au niveau 40
+167	706	Pokémon #706	Muplodocus
+Goodra	Type dragon ZA	Zone sauvage nº 20
+Évolution de Colimucus au niveau 50, dans un lieu avec de la pluie naturelle
+168	225	Pokémon #225	Cadoizo
+Delibird	Type glace ZA Type vol ZA	Zone sauvage nº 12, Zone sauvage nº 20
+169	361	Pokémon #361	Stalgamin
+Snorunt	Type glace ZA	Zone sauvage nº 12
+170	362	Pokémon #362	Oniglali
+Glalie	Type glace ZA	Évolution de Stalgamin au niveau 42
+171	478	Pokémon #478	Momartik
+Froslass	Type glace ZA Type spectre ZA	Zone sauvage nº 20
+Évolution de Stalgamin femelle en utilisant une Pierre Aube
+172	459	Pokémon #459	Blizzi
+Snover	Type plante ZA Type glace ZA	Zone sauvage nº 12
+173	460	Pokémon #460	Blizzaroi
+Abomasnow	Type plante ZA Type glace ZA	Zone sauvage nº 12
+Évolution de Blizzi au niveau 40
+174	712	Pokémon #712	Grelaçon
+Bergmite	Type glace ZA	Zone sauvage nº 12
+175	713	Pokémon #713	Séracrawl
+Avalugg	Type glace ZA	Zone sauvage nº 12
+Évolution de Grelaçon au niveau 37
+176	123	Pokémon #123	Insécateur
+Scyther	Type insecte ZA Type vol ZA	Zone sauvage nº 13
+177	212	Pokémon #212	Cizayox
+Scizor	Type insecte ZA Type acier ZA	Évolution de Insécateur par échange tenant une Peau Métal
+178	127	Pokémon #127	Scarabrute
+Pinsir	Type insecte ZA	Zone sauvage nº 13, Zone sauvage nº 20
+179	214	Pokémon #214	Scarhino
+Heracross	Type insecte ZA Type combat ZA	Zone sauvage nº 13, Zone sauvage nº 20
+180	587	Pokémon #587	Emolga
+Emolga	Type electrik ZA Type vol ZA	Zone sauvage nº 14
+181	701	Pokémon #701	Brutalibré
+Hawlucha	Type combat ZA Type vol ZA	Zone sauvage nº 20
+182	708	Pokémon #708	Brocélôme
+Phantump	Type spectre ZA Type plante ZA	Zone sauvage nº 13
+183	709	Pokémon #709	Desséliande
+Trevenant	Type spectre ZA Type plante ZA	Zone sauvage nº 13, Zone sauvage nº 15
+Évolution de Brocélôme par échange
+184	559	Pokémon #559	Baggiguane
+Scraggy	Type tenebres ZA Type combat ZA	Égouts (Accès Principale)
+185	560	Pokémon #560	Baggaïd
+Scrafty	Type tenebres ZA Type combat ZA	Zone sauvage nº 20
+Évolution de Baggiguane au niveau 39
+186	714	Pokémon #714	Sonistrelle
+Noibat	Type vol ZA Type dragon ZA	Zone sauvage nº 15, Zone sauvage nº 18, Égouts (Accès Principale), Égouts (Accès canal)
+187	715	Pokémon #715	Bruyverne
+Noivern	Type vol ZA Type dragon ZA	Zone sauvage nº 18, Zone sauvage nº 20
+Évolution de Sonistrelle au niveau 48
+188	707	Pokémon #707	Trousselin
+Klefki	Type acier ZA Type fee ZA	Zone sauvage nº 17, Zone sauvage nº 20, Égouts (Accès Principale), Égouts (Accès canal)
+189	607	Pokémon #607	Funécire
+Litwick	Type spectre ZA Type feu ZA	Égouts (Accès Principale)
+190	608	Pokémon #608	Mélancolux
+Lampent	Type spectre ZA Type feu ZA	Zone sauvage nº 17
+Évolution de Funécire au niveau 41
+191	609	Pokémon #609	Lugulabre
+Chandelure	Type spectre ZA Type feu ZA	Zone sauvage nº 20
+Évolution de Mélancolux en utilisant une Pierre Nuit
+192	142	Pokémon #142	Ptéra
+Aerodactyl	Type roche ZA Type vol ZA	-
+193	696	Pokémon #696	Ptyranidur
+Tyrunt	Type roche ZA Type dragon ZA	-
+194	697	Pokémon #697	Rexillius
+Tyrantrum	Type roche ZA Type dragon ZA	Évolution de Ptyranidur au niveau 39 le jour
+195	698	Pokémon #698	Amagara
+Amaura	Type roche ZA Type glace ZA	-
+196	699	Pokémon #699	Dragmara
+Aurorus	Type roche ZA Type glace ZA	Évolution de Amagara au niveau 39 la nuit
+197	95	Pokémon #95	Onix
+Onix	Type roche ZA Type sol ZA	Zone sauvage nº 14
+198	208	Pokémon #208	Steelix
+Steelix	Type acier ZA Type sol ZA	Zone sauvage nº 3
+Évolution de Onix par échange tenant une Peau Métal
+199	304	Pokémon #304	Galekid
+Aron	Type acier ZA Type roche ZA	Zone sauvage nº 14
+200	305	Pokémon #305	Galegon
+Lairon	Type acier ZA Type roche ZA	Zone sauvage nº 14
+Évolution de Galekid au niveau 32
+201	306	Pokémon #306	Galeking
+Aggron	Type acier ZA Type roche ZA	Zone sauvage nº 20
+Évolution de Galegon au niveau 42
+202	694	Pokémon #694	Galvaran
+Helioptile	Type electrik ZA Type normal ZA	Zone sauvage nº 14
+203	695	Pokémon #695	Iguolta
+Heliolisk	Type electrik ZA Type normal ZA	Zone sauvage nº 20
+Évolution de Galvaran en utilisant une Pierre Soleil
+204	710	Pokémon #710	Pitrouille
+Pumpkaboo	Type spectre ZA Type plante ZA	Zone sauvage nº 15
+205	711	Pokémon #711	Banshitrouye
+Gourgeist	Type spectre ZA Type plante ZA	Zone sauvage nº 15, Zone sauvage nº 20
+Évolution de Pitrouille par échange
+206	246	Pokémon #246	Embrylex
+Larvitar	Type roche ZA Type sol ZA	Zone sauvage nº 15
+207	247	Pokémon #247	Ymphect
+Pupitar	Type roche ZA Type sol ZA	Évolution de Embrylex au niveau 30
+208	248	Pokémon #248	Tyranocif
+Tyranitar	Type roche ZA Type tenebres ZA	Zone sauvage nº 20
+Évolution de Ymphect au niveau 55
+209	656	Pokémon #656	Grenousse
+Froakie	Type eau ZA	Zone sauvage nº 16
+210	657	Pokémon #657	Croâporal
+Frogadier	Type eau ZA	Évolution de Grenousse au niveau 16
+211	658	Pokémon #658	Amphinobi
+Greninja	Type eau ZA Type tenebres ZA	Évolution de Croâporal au niveau 36
+212	870	Pokémon #870	Hexadron
+Falinks	Type combat ZA	Zone sauvage nº 16, Zone sauvage nº 20
+213	650	Pokémon #650	Marisson
+Chespin	Type plante ZA	Zone sauvage nº 17
+214	651	Pokémon #651	Boguérisse
+Quilladin	Type plante ZA	Évolution de Marisson au niveau 16
+215	652	Pokémon #652	Blindépique
+Chesnaught	Type plante ZA Type combat ZA	Évolution de Boguérisse au niveau 36
+216	227	Pokémon #227	Airmure
+Skarmory	Type acier ZA Type vol ZA	Zone sauvage nº 17, Zone sauvage nº 20
+217	653	Pokémon #653	Feunnec
+Fennekin	Type feu ZA	Zone sauvage nº 18
+218	654	Pokémon #654	Roussil
+Braixen	Type feu ZA	Évolution de Feunnec au niveau 16
+219	655	Pokémon #655	Goupelin
+Delphox	Type feu ZA Type psy ZA	Évolution de Roussil au niveau 36
+220	371	Pokémon #371	Draby
+Bagon	Type dragon ZA	Zone sauvage nº 18
+221	372	Pokémon #372	Drackhaus
+Shelgon	Type dragon ZA	Évolution de Draby au niveau 30
+222	373	Pokémon #373	Drattak
+Salamence	Type dragon ZA Type vol ZA	Zone sauvage nº 18
+Évolution de Drackhaus au niveau 50
+223	115	Pokémon #115	Kangourex
+Kangaskhan	Type normal ZA	Zone sauvage nº 19, Zone sauvage nº 20
+224	780	Pokémon #780	Draïeul
+Drampa	Type normal ZA Type dragon ZA	Zone sauvage nº 19, Zone sauvage nº 20
+225	374	Pokémon #374	Terhal
+Beldum	Type acier ZA Type psy ZA	-
+226	375	Pokémon #375	Métang
+Metang	Type acier ZA Type psy ZA	Évolution de Terhal au niveau 20
+227	376	Pokémon #376	Métalosse
+Metagross	Type acier ZA Type psy ZA	Zone sauvage nº 20
+Évolution de Métang au niveau 45
+228	716	Pokémon #716	Xerneas
+Xerneas	Type fee ZA	-
+229	717	Pokémon #717	Yveltal
+Yveltal	Type tenebres ZA Type vol ZA	-
+230	718	Pokémon #718	Zygarde
+Zygarde	Type dragon ZA Type sol ZA
